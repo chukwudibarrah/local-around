@@ -1,81 +1,54 @@
 'use client';
 
 import { useState } from "react";
-
-interface TimetableData {
-  count?: number;
-  next?: string | null;
-  previous?: string | null;
-  results: any[];
-}
-
-interface TimetableError {
-  error: string;
-}
-
-type TimetableResponse = TimetableData | TimetableError | null;
+import axios from 'axios';
 
 export default function Home() {
-  const [departureStation, setDepartureStation] = useState("");
-  const [arrivalStation, setArrivalStation] = useState("");
-  const [timetableData, setTimetableData] = useState<TimetableResponse>(null);
+  const [start, setStart] = useState('');
+  const [end, setEnd] = useState('');
+  const [data, setData] = useState(null);
+  const [error, setError] = useState('');
 
-  const fetchTimetableData = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
-      const response = await fetch(`/api/timetable?departure=${departureStation}&arrival=${arrivalStation}`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data: TimetableData = await response.json();
-      console.log('API response:', data);
-      setTimetableData(data);
-    } catch (error) {
-      console.error("Error fetching timetable data:", error);
-      setTimetableData({ error: 'Failed to fetch data' });
+      const response = await axios.get(`http://127.0.0.1:5000/timetable?start=${start}&end=${end}`);
+      setData(response.data);
+      setError('');
+    } catch (err) {
+      setError('Error fetching data');
+      setData(null);
     }
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    fetchTimetableData();
-  };
-
   return (
-    <main className="w-screen h-screen flex flex-col justify-center items-center">
-      <div className="space-y-16 flex flex-col items-center">
+    <div>
+      <h1>Bus Timetable Finder</h1>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Start Location:
+          <input type="text" value={start} onChange={(e) => setStart(e.target.value)} />
+        </label>
+        <label>
+          End Location:
+          <input type="text" value={end} onChange={(e) => setEnd(e.target.value)} />
+        </label>
+        <button type="submit">Find Timetable</button>
+      </form>
+      {error && <p>{error}</p>}
+      {data && (
         <div>
-          <h1>Plan your journey</h1>
-        </div>
-        <div>
-          <form onSubmit={handleSubmit} className="space-y-10">
-            <div>
-              <input
-                type="text"
-                placeholder="Departing from"
-                className="p-5 bg-transparent border-2 border-gray-300"
-                value={departureStation}
-                onChange={(e) => setDepartureStation(e.target.value)}
-              />
-              <input
-                type="text"
-                placeholder="Going to"
-                className="p-5 bg-transparent border-2 border-gray-300"
-                value={arrivalStation}
-                onChange={(e) => setArrivalStation(e.target.value)}
-              />
+          <h2>Results</h2>
+          {data.map((bus, index) => (
+            <div key={index}>
+              <p>Start: {bus.start}</p>
+              <p>End: {bus.end}</p>
+              <p>Timetable: {bus.timetable}</p>
+              <p>Fare: ${bus.fare}</p>
             </div>
-            <div>
-              <button type="submit">Get times and prices</button>
-            </div>
-          </form>
+          ))}
         </div>
-        {timetableData && (
-          <div>
-            <h2>Timetable Results:</h2>
-            <pre>{JSON.stringify(timetableData, null, 2)}</pre>
-          </div>
-        )}
-      </div>
-    </main>
+      )}
+    </div>
   );
 }
