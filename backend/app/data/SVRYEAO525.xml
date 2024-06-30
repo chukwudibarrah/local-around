@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-28T09:15:29" ModificationDateTime="2024-06-28T09:15:29" Modification="new" RevisionNumber="0" FileName="SVRYEAO525.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00072</StopPointRef>
+      <CommonName>Beverley Swinemoor </CommonName>
+      <Indicator>22000072</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00077</StopPointRef>
+      <CommonName>Beverley New Walker</CommonName>
+      <Indicator>22000077</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00078</StopPointRef>
+      <CommonName>Beverley New Walker</CommonName>
+      <Indicator>22000078</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11654</StopPointRef>
+      <CommonName>Beverley Flemingate</CommonName>
+      <Indicator>22011654</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11816</StopPointRef>
+      <CommonName>ER Community Hospit</CommonName>
+      <Indicator>22011816</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11850</StopPointRef>
+      <CommonName>Beverley Armstrong </CommonName>
+      <Indicator>22011850</Indicator>
+      <LocalityName>Beverley Minster</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11926</StopPointRef>
+      <CommonName>Beverley BS</CommonName>
+      <Indicator>BAY F</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01250</StopPointRef>
+      <CommonName>Beverley Bus Statio</CommonName>
+      <Indicator>22001250</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01259</StopPointRef>
+      <CommonName>Beverley Cherry Tre</CommonName>
+      <Indicator>22001259</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01260</StopPointRef>
+      <CommonName>Beverley Greenwood </CommonName>
+      <Indicator>22001260</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01261</StopPointRef>
+      <CommonName>Beverley Burden Roa</CommonName>
+      <Indicator>22001261</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01262</StopPointRef>
+      <CommonName>Beverley Sigston Ro</CommonName>
+      <Indicator>22001262</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01264</StopPointRef>
+      <CommonName>Beverley Rail Stati</CommonName>
+      <Indicator>22001264</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01265</StopPointRef>
+      <CommonName>Beverley Railway St</CommonName>
+      <Indicator>22001265</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01268</StopPointRef>
+      <CommonName>Beverley Humber Kee</CommonName>
+      <Indicator>22001268</Indicator>
+      <LocalityName>Beverley</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="2335">
+      <RouteLink id="2335_100">
+        <From>
+          <StopPointRef>2200YEA11926</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00077</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_200">
+        <From>
+          <StopPointRef>2200YEA00077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_300">
+        <From>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_400">
+        <From>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_500">
+        <From>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_600">
+        <From>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_700">
+        <From>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00072</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_800">
+        <From>
+          <StopPointRef>2200YEA00072</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11816</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_900">
+        <From>
+          <StopPointRef>2200YEA11816</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_1000">
+        <From>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11654</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_1100">
+        <From>
+          <StopPointRef>2200YEA11654</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11850</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_1200">
+        <From>
+          <StopPointRef>2200YEA11850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_1300">
+        <From>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00078</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2335_1400">
+        <From>
+          <StopPointRef>2200YEA00078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01250</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2336">
+      <RouteLink id="2336_100">
+        <From>
+          <StopPointRef>2200YEA11926</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00077</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_200">
+        <From>
+          <StopPointRef>2200YEA00077</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_300">
+        <From>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11654</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_1100">
+        <From>
+          <StopPointRef>2200YEA11654</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11850</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_1200">
+        <From>
+          <StopPointRef>2200YEA11850</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_1300">
+        <From>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00078</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2336_1400">
+        <From>
+          <StopPointRef>2200YEA00078</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01250</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="2335">
+      <PrivateCode>2335</PrivateCode>
+      <Description>Beverley - Swinemoor Estate (Circular)</Description>
+      <RouteSectionRef>2335</RouteSectionRef>
+    </Route>
+    <Route id="2336">
+      <PrivateCode>2336</PrivateCode>
+      <Description>Beverley - Swinemoor Estate (Circular)</Description>
+      <RouteSectionRef>2336</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YEAO525-3">
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11926</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_500">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_600">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_800">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11816</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_900">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11816</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_900</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_1000">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_1100">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_1200">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_1300">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-3_2335_1400">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01250</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YEAO525-4">
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11926</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01259</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_500">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01260</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_600">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01268</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01261</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_800">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00072</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11816</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_900">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11816</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_900</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_1000">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01262</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_1100">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_1200">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_1300">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-4_2335_1400">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01250</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2335_1400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YEAO525-5">
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_100">
+        <From SequenceNumber="151">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11926</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="152">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_200">
+        <From SequenceNumber="161">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00077</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="162">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_300">
+        <From SequenceNumber="171">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01265</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="172">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_1100">
+        <From SequenceNumber="181">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11654</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="182">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_1200">
+        <From SequenceNumber="191">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11850</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="192">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_1200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_1300">
+        <From SequenceNumber="201">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01264</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="202">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_1300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO525-5_2336_1400">
+        <From SequenceNumber="211">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00078</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="212">
+          <DynamicDestinationDisplay>Beverley</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01250</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2336_1400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="EYM">
+      <NationalOperatorCode>EYMS</NationalOperatorCode>
+      <OperatorCode>EYM</OperatorCode>
+      <OperatorShortName>East Yorkshire</OperatorShortName>
+      <OperatorNameOnLicence>East Yorkshire Motor Services Ltd</OperatorNameOnLicence>
+      <TradingName>East Yorkshire</TradingName>
+      <LicenceNumber>PB0000328</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YEAO525</ServiceCode>
+      <Lines>
+        <Line id="EYM">
+          <LineName>525</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-02-02</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>EYM</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Beverley - Swinemoor Estate (Circular)</Description>
+      <StandardService>
+        <Origin>Beverley</Origin>
+        <Destination>Swinemoor Estate (Circular)</Destination>
+        <JourneyPattern id="JP_YEAO525-3">
+          <DestinationDisplay>Swinemoor Estate (Circular)</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEAO525-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YEAO525-4">
+          <DestinationDisplay>Swinemoor Estate (Circular)</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEAO525-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YEAO525-5">
+          <DestinationDisplay>Swinemoor Estate (Circular)</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEAO525-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_1_0</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_2_15</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_2_15</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_3_30</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_3_30</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_4_45</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_4_45</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_5_60</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_5_60</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_6_75</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_6_75</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_7_90</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_7_90</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17020_8_105</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17020_8_105</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_1_120</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_1_120</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_2_135</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_2_135</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_3_150</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_3_150</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_4_165</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_4_165</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_5_180</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_5_180</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_6_195</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_6_195</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_7_210</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_7_210</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-4</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2335_17021_8_225</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2335_17021_8_225</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-3</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17020_9_240</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17020_9_240</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17020_10_248</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17020_10_248</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>21:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17020_11_256</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17020_11_256</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17021_9_264</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17021_9_264</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>20:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17021_10_272</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17021_10_272</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>21:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2336_17021_11_280</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2336_17021_11_280</VehicleJourneyCode>
+      <ServiceRef>YEAO525</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO525-5</JourneyPatternRef>
+      <DepartureTime>22:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-25T10:57:51" ModificationDateTime="2024-06-25T10:57:51" Modification="new" RevisionNumber="0" FileName="SVRYSEO654.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030141</StopPointRef>
+      <CommonName>Treeton Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030142</StopPointRef>
+      <CommonName>Treeton Lane</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030175</StopPointRef>
+      <CommonName>Pit Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030176</StopPointRef>
+      <CommonName>Pit Lane</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030177</StopPointRef>
+      <CommonName>Bradshaw Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030178</StopPointRef>
+      <CommonName>Bradshaw Avenue</CommonName>
+      <Indicator>NR</Indicator>
+      <LocalityName>Treeton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030945</StopPointRef>
+      <CommonName>Aughton Avenue</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030946</StopPointRef>
+      <CommonName>Windy Ridge</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030947</StopPointRef>
+      <CommonName>Aston Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370030948</StopPointRef>
+      <CommonName>Ulley Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370035029</StopPointRef>
+      <CommonName>Westfield Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370035073</StopPointRef>
+      <CommonName>Coral Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370035105</StopPointRef>
+      <CommonName>Aughton Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370035563</StopPointRef>
+      <CommonName>Aston Academy</CommonName>
+      <Indicator>AT</Indicator>
+      <LocalityName>Aughton</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="116465">
+      <RouteLink id="116465_200">
+        <From>
+          <StopPointRef>370035563</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370035105</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116465_300">
+        <From>
+          <StopPointRef>370035105</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370035029</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116465_400">
+        <From>
+          <StopPointRef>370035029</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370035073</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116465_500">
+        <From>
+          <StopPointRef>370035073</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030141</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116465_700">
+        <From>
+          <StopPointRef>370030141</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030177</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116465_800">
+        <From>
+          <StopPointRef>370030177</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030176</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="116466">
+      <RouteLink id="116466_200">
+        <From>
+          <StopPointRef>370030175</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030178</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_300">
+        <From>
+          <StopPointRef>370030178</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030142</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_400">
+        <From>
+          <StopPointRef>370030142</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030948</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_600">
+        <From>
+          <StopPointRef>370030948</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030947</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_700">
+        <From>
+          <StopPointRef>370030947</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030946</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_800">
+        <From>
+          <StopPointRef>370030946</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370030945</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116466_900">
+        <From>
+          <StopPointRef>370030945</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370035563</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="116465">
+      <PrivateCode>116465</PrivateCode>
+      <Description>Aston Academy - Treeton</Description>
+      <RouteSectionRef>116465</RouteSectionRef>
+    </Route>
+    <Route id="116466">
+      <PrivateCode>116466</PrivateCode>
+      <Description>Treeton - Aston Academy</Description>
+      <RouteSectionRef>116466</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YSEO654-3">
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_200">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035563</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035105</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_300">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035105</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035029</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_400">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035029</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_500">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370035073</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370030141</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_700">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370030141</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370030177</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-3_116465_800">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370030177</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Treeton Wood Lane</DynamicDestinationDisplay>
+          <StopPointRef>370030176</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116465_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSEO654-4">
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_200">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030175</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030178</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_300">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030178</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030142</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_300</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_400">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030142</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030948</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_600">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030948</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030947</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_600</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_700">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030947</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030946</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_700</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_800">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030946</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030945</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_800</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO654-4_116466_900">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370030945</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Aston Academy</DynamicDestinationDisplay>
+          <StopPointRef>370035563</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116466_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="CWT">
+      <NationalOperatorCode>CAWT</NationalOperatorCode>
+      <OperatorCode>CWT</OperatorCode>
+      <OperatorShortName>Cawthornes Travel</OperatorShortName>
+      <OperatorNameOnLicence>MISSING</OperatorNameOnLicence>
+      <TradingName>Cawthornes Travel</TradingName>
+      <LicenceNumber>PB2000814</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YSEO654</ServiceCode>
+      <Lines>
+        <Line id="CWT">
+          <LineName>654</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-09-01</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>CWT</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Aston Academy - Treeton</Description>
+      <StandardService>
+        <Origin>Aston Academy</Origin>
+        <Destination>Treeton</Destination>
+        <JourneyPattern id="JP_YSEO654-3">
+          <DestinationDisplay>Treeton</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSEO654-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSEO654-4">
+          <DestinationDisplay>Treeton</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSEO654-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>116465_520409_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>116465_520409_1_0</VehicleJourneyCode>
+      <ServiceRef>YSEO654</ServiceRef>
+      <LineRef>CWT</LineRef>
+      <JourneyPatternRef>JP_YSEO654-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCHD</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>15:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>116466_520412_1_7</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>116466_520412_1_7</VehicleJourneyCode>
+      <ServiceRef>YSEO654</ServiceRef>
+      <LineRef>CWT</LineRef>
+      <JourneyPatternRef>JP_YSEO654-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCHD</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:04:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-27T10:19:35" ModificationDateTime="2024-06-27T10:19:35" Modification="new" RevisionNumber="0" FileName="SVRYWAK090_20210725.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1</OrganisationCode>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-06-27</StartDate>
+          <EndDate>2024-07-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-09-02</StartDate>
+          <EndDate>2024-10-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-11-04</StartDate>
+          <EndDate>2024-11-04</EndDate>
+        </DateRange>
+      </WorkingDays>
+      <Holidays>
+        <DateRange>
+          <StartDate>2024-07-27</StartDate>
+          <EndDate>2024-09-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-10-26</StartDate>
+          <EndDate>2024-11-03</EndDate>
+        </DateRange>
+      </Holidays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020742</AtcoCode>
+      <Descriptor>
+        <CommonName>Near Bank</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033548</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420906</Easting>
+          <Northing>411224</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+                <Degrees>45</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020743</AtcoCode>
+      <Descriptor>
+        <CommonName>Star Garage</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033548</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420675</Easting>
+          <Northing>411168</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+                <Degrees>90</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020746</AtcoCode>
+      <Descriptor>
+        <CommonName>Shelley Village Hall</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033548</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420421</Easting>
+          <Northing>411276</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020751</AtcoCode>
+      <Descriptor>
+        <CommonName>Westerly Way</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033548</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420373</Easting>
+          <Northing>411390</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020752</AtcoCode>
+      <Descriptor>
+        <CommonName>Cross Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420132</Easting>
+          <Northing>411928</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020754</AtcoCode>
+      <Descriptor>
+        <CommonName>Queensway</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419911</Easting>
+          <Northing>412265</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020755</AtcoCode>
+      <Descriptor>
+        <CommonName>Kirkburton Church</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419857</Easting>
+          <Northing>412541</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020764</AtcoCode>
+      <Descriptor>
+        <CommonName>Kirkburton Library</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419801</Easting>
+          <Northing>412685</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-03T00:00:00">
+      <AtcoCode>450020766</AtcoCode>
+      <Descriptor>
+        <CommonName>School Hill</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419999</Easting>
+          <Northing>412720</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-04T00:00:00">
+      <AtcoCode>450020767</AtcoCode>
+      <Descriptor>
+        <CommonName>Turnshaw Avenue</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420168</Easting>
+          <Northing>412908</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-04T00:00:00">
+      <AtcoCode>450020768</AtcoCode>
+      <Descriptor>
+        <CommonName>Lane Side</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420300</Easting>
+          <Northing>412969</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-04T00:00:00">
+      <AtcoCode>450020770</AtcoCode>
+      <Descriptor>
+        <CommonName>The Crescent</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420278</Easting>
+          <Northing>413098</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-04T00:00:00">
+      <AtcoCode>450020773</AtcoCode>
+      <Descriptor>
+        <CommonName>Burton Acres Way</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032858</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419476</Easting>
+          <Northing>413532</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+                <Degrees>90</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-04T00:00:00">
+      <AtcoCode>450020774</AtcoCode>
+      <Descriptor>
+        <CommonName>Highburton Village Store</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032858</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419334</Easting>
+          <Northing>413567</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+                <Degrees>90</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2001-10-04T00:00:00">
+      <AtcoCode>450024843</AtcoCode>
+      <Descriptor>
+        <CommonName>Shelley College 1</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033548</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>422201</Easting>
+          <Northing>410811</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+                <Degrees>0</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2004-09-01T00:00:00">
+      <AtcoCode>450051010</AtcoCode>
+      <Descriptor>
+        <CommonName>Burton Royd Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052834</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>420176</Easting>
+          <Northing>413474</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2004-09-01T00:00:00">
+      <AtcoCode>450051011</AtcoCode>
+      <Descriptor>
+        <CommonName>Cotswold Mews</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032858</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>419706</Easting>
+          <Northing>413444</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS_0">
+      <RouteLink id="RS_0_RL_0">
+        <From>
+          <StopPointRef>450020774</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020773</StopPointRef>
+        </To>
+        <Distance>138</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_1">
+      <RouteLink id="RS_1_RL_0">
+        <From>
+          <StopPointRef>450020773</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450051011</StopPointRef>
+        </To>
+        <Distance>246</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_2">
+      <RouteLink id="RS_2_RL_0">
+        <From>
+          <StopPointRef>450051011</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450051010</StopPointRef>
+        </To>
+        <Distance>542</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_3">
+      <RouteLink id="RS_3_RL_0">
+        <From>
+          <StopPointRef>450051010</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020770</StopPointRef>
+        </To>
+        <Distance>405</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_4">
+      <RouteLink id="RS_4_RL_0">
+        <From>
+          <StopPointRef>450020770</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020768</StopPointRef>
+        </To>
+        <Distance>177</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_5">
+      <RouteLink id="RS_5_RL_0">
+        <From>
+          <StopPointRef>450020768</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020767</StopPointRef>
+        </To>
+        <Distance>144</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_6">
+      <RouteLink id="RS_6_RL_0">
+        <From>
+          <StopPointRef>450020767</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020766</StopPointRef>
+        </To>
+        <Distance>259</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_7">
+      <RouteLink id="RS_7_RL_0">
+        <From>
+          <StopPointRef>450020766</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020764</StopPointRef>
+        </To>
+        <Distance>207</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_8">
+      <RouteLink id="RS_8_RL_0">
+        <From>
+          <StopPointRef>450020764</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020755</StopPointRef>
+        </To>
+        <Distance>237</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_9">
+      <RouteLink id="RS_9_RL_0">
+        <From>
+          <StopPointRef>450020755</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020754</StopPointRef>
+        </To>
+        <Distance>297</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_10">
+      <RouteLink id="RS_10_RL_0">
+        <From>
+          <StopPointRef>450020754</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020752</StopPointRef>
+        </To>
+        <Distance>404</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_11">
+      <RouteLink id="RS_11_RL_0">
+        <From>
+          <StopPointRef>450020752</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020751</StopPointRef>
+        </To>
+        <Distance>591</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_12">
+      <RouteLink id="RS_12_RL_0">
+        <From>
+          <StopPointRef>450020751</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020746</StopPointRef>
+        </To>
+        <Distance>127</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_13">
+      <RouteLink id="RS_13_RL_0">
+        <From>
+          <StopPointRef>450020746</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020743</StopPointRef>
+        </To>
+        <Distance>304</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_14">
+      <RouteLink id="RS_14_RL_0">
+        <From>
+          <StopPointRef>450020743</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020742</StopPointRef>
+        </To>
+        <Distance>245</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_15">
+      <RouteLink id="RS_15_RL_0">
+        <From>
+          <StopPointRef>450020742</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450024843</StopPointRef>
+        </To>
+        <Distance>1695</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT_0">
+      <PrivateCode>30688111</PrivateCode>
+      <Description>HIGHBURTON CO-OP - SHELLEY COLLEGE High Burton to Shelley College via </Description>
+      <RouteSectionRef>RS_0</RouteSectionRef>
+      <RouteSectionRef>RS_1</RouteSectionRef>
+      <RouteSectionRef>RS_2</RouteSectionRef>
+      <RouteSectionRef>RS_3</RouteSectionRef>
+      <RouteSectionRef>RS_4</RouteSectionRef>
+      <RouteSectionRef>RS_5</RouteSectionRef>
+      <RouteSectionRef>RS_6</RouteSectionRef>
+      <RouteSectionRef>RS_7</RouteSectionRef>
+      <RouteSectionRef>RS_8</RouteSectionRef>
+      <RouteSectionRef>RS_9</RouteSectionRef>
+      <RouteSectionRef>RS_10</RouteSectionRef>
+      <RouteSectionRef>RS_11</RouteSectionRef>
+      <RouteSectionRef>RS_12</RouteSectionRef>
+      <RouteSectionRef>RS_13</RouteSectionRef>
+      <RouteSectionRef>RS_14</RouteSectionRef>
+      <RouteSectionRef>RS_15</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_0">
+      <JourneyPatternTimingLink id="JPS_0_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020774</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020773</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_0_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_1">
+      <JourneyPatternTimingLink id="JPS_1_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020773</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450051011</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_1_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_2">
+      <JourneyPatternTimingLink id="JPS_2_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450051011</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450051010</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_2_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_3">
+      <JourneyPatternTimingLink id="JPS_3_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450051010</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020770</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_3_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_4">
+      <JourneyPatternTimingLink id="JPS_4_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020770</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020768</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_4_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_5">
+      <JourneyPatternTimingLink id="JPS_5_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020768</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020767</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_5_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_6">
+      <JourneyPatternTimingLink id="JPS_6_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020767</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020766</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_6_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_7">
+      <JourneyPatternTimingLink id="JPS_7_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020766</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020764</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_7_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_8">
+      <JourneyPatternTimingLink id="JPS_8_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020764</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020755</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_8_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_9">
+      <JourneyPatternTimingLink id="JPS_9_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020755</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020754</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_9_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_10">
+      <JourneyPatternTimingLink id="JPS_10_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020754</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020752</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_10_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_11">
+      <JourneyPatternTimingLink id="JPS_11_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020752</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020751</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_11_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_12">
+      <JourneyPatternTimingLink id="JPS_12_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020751</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020746</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_12_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_13">
+      <JourneyPatternTimingLink id="JPS_13_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020746</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020743</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_13_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_14">
+      <JourneyPatternTimingLink id="JPS_14_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020743</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_14_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_15">
+      <JourneyPatternTimingLink id="JPS_15_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450020742</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Shelley High School</DynamicDestinationDisplay>
+          <StopPointRef>450024843</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_15_RL_0</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TPEN">
+      <NationalOperatorCode>TPEN</NationalOperatorCode>
+      <OperatorCode>TPEN</OperatorCode>
+      <OperatorShortName>Team Pennine</OperatorShortName>
+      <OperatorNameOnLicence>Transdev</OperatorNameOnLicence>
+      <TradingName>Team Pennine</TradingName>
+      <LicenceNumber>YW2044957</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YWAK090</ServiceCode>
+      <PrivateCode>306881</PrivateCode>
+      <Lines>
+        <Line id="SRV_K90_30688_1_LN_0">
+          <LineName>K90</LineName>
+          <OutboundDescription>
+            <Origin>Highburton Co-op</Origin>
+            <Destination>.</Destination>
+          </OutboundDescription>
+          <InboundDescription>
+            <Origin>.</Origin>
+            <Destination>Highburton Co-op</Destination>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2021-07-25</StartDate>
+        <EndDate>3000-01-01</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <RegisteredOperatorRef>TPEN</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Highburton Co-op - Shelley High School</Description>
+      <StandardService>
+        <Origin>Highburton Co-op</Origin>
+        <Destination>.</Destination>
+        <JourneyPattern id="JP_0">
+          <Direction>outbound</Direction>
+          <RouteRef>RT_0</RouteRef>
+          <JourneyPatternSectionRefs>JPS_0</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_6</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_7</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_9</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_10</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_13</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_14</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_15</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>30688-1-1</PrivateCode>
+      <OperatorRef>TPEN</OperatorRef>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ_0</VehicleJourneyCode>
+      <ServiceRef>YWAK090</ServiceRef>
+      <LineRef>SRV_K90_30688_1_LN_0</LineRef>
+      <JourneyPatternRef>JP_0</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Runs Schooldays only</NoteText>
+      </Note>
+      <DepartureTime>07:55:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

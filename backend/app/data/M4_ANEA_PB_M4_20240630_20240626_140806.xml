@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-26T13:57:23.253" ModificationDateTime="2024-06-26T13:57:23.253" Modification="new" RevisionNumber="0" FileName="M4_ANEA_PB_M4_20240630_20240626_140806.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01145</StopPointRef>
+      <CommonName>Market Place</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01146</StopPointRef>
+      <CommonName>Feathers Hotel</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01518</StopPointRef>
+      <CommonName>Visitor Centre</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="1">
+      <RouteLink id="1_1">
+        <From>
+          <StopPointRef>3200YNA01518</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01145</StopPointRef>
+        </To>
+        <Distance>12796</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2">
+      <RouteLink id="2_1">
+        <From>
+          <StopPointRef>3200YNA01146</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01518</StopPointRef>
+        </To>
+        <Distance>12449</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="1">
+      <Description>Sutton Bank - Helmsley</Description>
+      <RouteSectionRef>1</RouteSectionRef>
+    </Route>
+    <Route id="2">
+      <Description>Helmsley - Sutton Bank</Description>
+      <RouteSectionRef>2</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="1">
+      <JourneyPatternTimingLink id="1_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA01518</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA01145</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_1</RouteLinkRef>
+        <RunTime>PT0H13M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="2">
+      <JourneyPatternTimingLink id="2_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA01146</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA01518</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_1</RouteLinkRef>
+        <RunTime>PT0H13M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="7778525">
+      <NationalOperatorCode>ANEA</NationalOperatorCode>
+      <OperatorCode>DC</OperatorCode>
+      <OperatorShortName>Arriva</OperatorShortName>
+      <OperatorNameOnLicence>ARRIVA Durham County Ltd</OperatorNameOnLicence>
+      <TradingName>ARRIVA North East</TradingName>
+      <LicenceNumber>PB0002717</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>M4</ServiceCode>
+      <Lines>
+        <Line id="1">
+          <LineName>M4</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-30</StartDate>
+        <EndDate>2024-10-27</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>7778525</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <PublicUse>true</PublicUse>
+      <Description>Sutton Bank - Helmsley</Description>
+      <StandardService>
+        <Origin>Sutton Bank</Origin>
+        <Destination>Helmsley</Destination>
+        <JourneyPattern id="1">
+          <DestinationDisplay>Helmsley</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>1</RouteRef>
+          <JourneyPatternSectionRefs>1</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="2">
+          <DestinationDisplay>Sutton Bank</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>2</RouteRef>
+          <JourneyPatternSectionRefs>2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>7778525</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>M4</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>11:09:00</DepartureTime>
+      <VehicleJourneyTimingLink id="1_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778525</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>M4</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>17:09:00</DepartureTime>
+      <VehicleJourneyTimingLink id="2_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778525</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>M4</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>10:32:00</DepartureTime>
+      <VehicleJourneyTimingLink id="3_1">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778525</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>M4</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>16:02:00</DepartureTime>
+      <VehicleJourneyTimingLink id="4_1">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-05-23T12:50:03" ModificationDateTime="2024-05-23T12:50:03" Modification="new" RevisionNumber="1" FileName="FWYO_BATM_1.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>YSBA</OrganisationCode>
+      <Name>HaxSch01</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>HaxSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-29</EndDate>
+          <Description>HaxSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>HaxSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>HaxSch01</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>YSBB</OrganisationCode>
+      <Name>BfdSch01</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-01-02</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>BfdSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-30</EndDate>
+          <Description>BfdSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>BfdSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>BfdSch01</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>YSBU</OrganisationCode>
+      <Name>HudSch01</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>HudSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-29</EndDate>
+          <Description>HudSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>HudSch01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>HudSch01</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>HNC</OrganisationCode>
+      <Name>HudNC01</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>HudNC01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-22</EndDate>
+          <Description>HudNC01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-08</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>HudNC01</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-12</EndDate>
+          <Description>HudNC01</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+    <ServicedOrganisation>
+      <OrganisationCode>ORG1</OrganisationCode>
+      <Name>Schools1</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>Schools1</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-29</EndDate>
+          <Description>Schools1</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>Schools1</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>Schools1</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450015773</StopPointRef>
+      <CommonName>Trinity Academy</CommonName>
+      <LocalityName>Boothtown</LocalityName>
+      <LocalityQualifier>Halifax</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450017304</StopPointRef>
+      <CommonName>Pellon Social Club</CommonName>
+      <LocalityName>Pellon</LocalityName>
+      <LocalityQualifier>Halifax</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450017481</StopPointRef>
+      <CommonName>Crossley Retail Park</CommonName>
+      <LocalityName>Pellon</LocalityName>
+      <LocalityQualifier>Halifax</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450021225</StopPointRef>
+      <CommonName>Brighouse Pool</CommonName>
+      <LocalityName>Brighouse</LocalityName>
+      <LocalityQualifier>Brighouse</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450021275</StopPointRef>
+      <CommonName>Spout House Lane</CommonName>
+      <LocalityName>Hove Edge</LocalityName>
+      <LocalityQualifier>Brighouse</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450023048</StopPointRef>
+      <CommonName>Copley Lane Kings Lea</CommonName>
+      <LocalityName>Copley</LocalityName>
+      <LocalityQualifier>Halifax</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450023240</StopPointRef>
+      <CommonName>Infant School</CommonName>
+      <LocalityName>Siddal</LocalityName>
+      <LocalityQualifier>Halifax</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9990YSBBAT01</StopPointRef>
+      <CommonName>Sowerby Br Pool</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9991AMC145</StopPointRef>
+      <CommonName>TrinityMAT Bradshaw</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9991HX008</StopPointRef>
+      <CommonName>Todmorden Pool</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9990YSBBAT04</StopPointRef>
+      <CommonName>Holy Trinity, Littleborough</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>9990YSBBAT05</StopPointRef>
+      <CommonName>St.Johns, Clifton</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS67">
+      <RouteLink id="RL814">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450017304</StopPointRef>
+        </To>
+        <Distance>5464</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS68">
+      <RouteLink id="RL815">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9991AMC145</StopPointRef>
+        </To>
+        <Distance>11004</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS65">
+      <RouteLink id="RL812">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450015773</StopPointRef>
+        </To>
+        <Distance>8910</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS69">
+      <RouteLink id="RL816">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450023048</StopPointRef>
+        </To>
+        <Distance>5424</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS70">
+      <RouteLink id="RL817">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450023240</StopPointRef>
+        </To>
+        <Distance>5452</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS66">
+      <RouteLink id="RL813">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450017481</StopPointRef>
+        </To>
+        <Distance>5003</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS71">
+      <RouteLink id="RL818">
+        <From>
+          <StopPointRef>450015773</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+        </To>
+        <Distance>8451</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS75">
+      <RouteLink id="RL822">
+        <From>
+          <StopPointRef>450023048</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </To>
+        <Distance>2406</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS76">
+      <RouteLink id="RL823">
+        <From>
+          <StopPointRef>450023240</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </To>
+        <Distance>6222</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS74">
+      <RouteLink id="RL821">
+        <From>
+          <StopPointRef>9991AMC145</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </To>
+        <Distance>10609</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS73">
+      <RouteLink id="RL820">
+        <From>
+          <StopPointRef>450017304</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </To>
+        <Distance>7584</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS72">
+      <RouteLink id="RL819">
+        <From>
+          <StopPointRef>450017481</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+        </To>
+        <Distance>5915</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS199">
+      <RouteLink id="RL4580">
+        <From>
+          <StopPointRef>9991HX008</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT04</StopPointRef>
+        </To>
+        <Distance>10229</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS200">
+      <RouteLink id="RL4581">
+        <From>
+          <StopPointRef>9990YSBBAT04</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9991HX008</StopPointRef>
+        </To>
+        <Distance>10239</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS255">
+      <RouteLink id="RL6098">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT05</StopPointRef>
+        </To>
+        <Distance>2260</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS256">
+      <RouteLink id="RL6099">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450021275</StopPointRef>
+        </To>
+        <Distance>3010</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS257">
+      <RouteLink id="RL6100">
+        <From>
+          <StopPointRef>9990YSBBAT05</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+        </To>
+        <Distance>2312</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS258">
+      <RouteLink id="RL6101">
+        <From>
+          <StopPointRef>450021275</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+        </To>
+        <Distance>1960</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT67">
+      <PrivateCode>BATM-67</PrivateCode>
+      <Description>Sowerby Br Pool - Christ Church Sch</Description>
+      <RouteSectionRef>RS67</RouteSectionRef>
+    </Route>
+    <Route id="RT68">
+      <PrivateCode>BATM-68</PrivateCode>
+      <Description>Sowerby Br Pool - TrinityMAT Bradshaw</Description>
+      <RouteSectionRef>RS68</RouteSectionRef>
+    </Route>
+    <Route id="RT65">
+      <PrivateCode>BATM-65</PrivateCode>
+      <Description>Brighouse Pool - TrinityMAT Akroydon</Description>
+      <RouteSectionRef>RS65</RouteSectionRef>
+    </Route>
+    <Route id="RT69">
+      <PrivateCode>BATM-69</PrivateCode>
+      <Description>Sowerby Br Pool - Copley</Description>
+      <RouteSectionRef>RS69</RouteSectionRef>
+    </Route>
+    <Route id="RT70">
+      <PrivateCode>BATM-70</PrivateCode>
+      <Description>Sowerby Br Pool - Siddal PS</Description>
+      <RouteSectionRef>RS70</RouteSectionRef>
+    </Route>
+    <Route id="RT66">
+      <PrivateCode>BATM-66</PrivateCode>
+      <Description>Sowerby Br Pool - Beech Hill Primary</Description>
+      <RouteSectionRef>RS66</RouteSectionRef>
+    </Route>
+    <Route id="RT71">
+      <PrivateCode>BATM-71</PrivateCode>
+      <Description>TrinityMAT Akroydon - Brighouse Pool</Description>
+      <RouteSectionRef>RS71</RouteSectionRef>
+    </Route>
+    <Route id="RT75">
+      <PrivateCode>BATM-75</PrivateCode>
+      <Description>Copley - Sowerby Br Pool</Description>
+      <RouteSectionRef>RS75</RouteSectionRef>
+    </Route>
+    <Route id="RT76">
+      <PrivateCode>BATM-76</PrivateCode>
+      <Description>Siddal PS - Sowerby Br Pool</Description>
+      <RouteSectionRef>RS76</RouteSectionRef>
+    </Route>
+    <Route id="RT74">
+      <PrivateCode>BATM-74</PrivateCode>
+      <Description>TrinityMAT Bradshaw - Sowerby Br Pool</Description>
+      <RouteSectionRef>RS74</RouteSectionRef>
+    </Route>
+    <Route id="RT73">
+      <PrivateCode>BATM-73</PrivateCode>
+      <Description>Christ Church Sch - Sowerby Br Pool</Description>
+      <RouteSectionRef>RS73</RouteSectionRef>
+    </Route>
+    <Route id="RT72">
+      <PrivateCode>BATM-72</PrivateCode>
+      <Description>Beech Hill Primary - Sowerby Br Pool</Description>
+      <RouteSectionRef>RS72</RouteSectionRef>
+    </Route>
+    <Route id="RT199">
+      <PrivateCode>BATM-199</PrivateCode>
+      <Description>Todmorden Pool - Holy Trinity, Littleborough</Description>
+      <RouteSectionRef>RS199</RouteSectionRef>
+    </Route>
+    <Route id="RT200">
+      <PrivateCode>BATM-200</PrivateCode>
+      <Description>Holy Trinity, Littleborough - Todmorden Pool</Description>
+      <RouteSectionRef>RS200</RouteSectionRef>
+    </Route>
+    <Route id="RT255">
+      <PrivateCode>BATM-255</PrivateCode>
+      <Description>Brighouse Pool - St.Johns, Clifton</Description>
+      <RouteSectionRef>RS255</RouteSectionRef>
+    </Route>
+    <Route id="RT256">
+      <PrivateCode>BATM-256</PrivateCode>
+      <Description>Brighouse Pool - TrinityMAT St.Chads</Description>
+      <RouteSectionRef>RS256</RouteSectionRef>
+    </Route>
+    <Route id="RT257">
+      <PrivateCode>BATM-257</PrivateCode>
+      <Description>St.Johns, Clifton - Brighouse Pool</Description>
+      <RouteSectionRef>RS257</RouteSectionRef>
+    </Route>
+    <Route id="RT258">
+      <PrivateCode>BATM-258</PrivateCode>
+      <Description>TrinityMAT St.Chads - Brighouse Pool</Description>
+      <RouteSectionRef>RS258</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS153">
+      <JourneyPatternTimingLink id="JPTL4534">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450017304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL814</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS154">
+      <JourneyPatternTimingLink id="JPTL4535">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9991AMC145</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL815</RouteLinkRef>
+        <RunTime>PT30M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS155">
+      <JourneyPatternTimingLink id="JPTL4536">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450015773</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL812</RouteLinkRef>
+        <RunTime>PT20M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS156">
+      <JourneyPatternTimingLink id="JPTL4537">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450023048</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL816</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS157">
+      <JourneyPatternTimingLink id="JPTL4538">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450023240</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL817</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS158">
+      <JourneyPatternTimingLink id="JPTL4539">
+        <From>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450017481</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL813</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS159">
+      <JourneyPatternTimingLink id="JPTL4540">
+        <From>
+          <StopPointRef>450015773</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL818</RouteLinkRef>
+        <RunTime>PT20M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS160">
+      <JourneyPatternTimingLink id="JPTL4541">
+        <From>
+          <StopPointRef>450023048</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL822</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS161">
+      <JourneyPatternTimingLink id="JPTL4542">
+        <From>
+          <StopPointRef>450023240</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL823</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS162">
+      <JourneyPatternTimingLink id="JPTL4543">
+        <From>
+          <StopPointRef>9991AMC145</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL821</RouteLinkRef>
+        <RunTime>PT35M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS163">
+      <JourneyPatternTimingLink id="JPTL4544">
+        <From>
+          <StopPointRef>450017304</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL820</RouteLinkRef>
+        <RunTime>PT20M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS164">
+      <JourneyPatternTimingLink id="JPTL4545">
+        <From>
+          <StopPointRef>450017481</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT01</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL819</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS217">
+      <JourneyPatternTimingLink id="JPTL5224">
+        <From>
+          <StopPointRef>9991HX008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT04</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4580</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS218">
+      <JourneyPatternTimingLink id="JPTL5225">
+        <From>
+          <StopPointRef>9990YSBBAT04</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9991HX008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4581</RouteLinkRef>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS306">
+      <JourneyPatternTimingLink id="JPTL7325">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>9990YSBBAT05</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6098</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS307">
+      <JourneyPatternTimingLink id="JPTL7326">
+        <From>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450021275</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6099</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS308">
+      <JourneyPatternTimingLink id="JPTL7327">
+        <From>
+          <StopPointRef>9990YSBBAT05</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6100</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS309">
+      <JourneyPatternTimingLink id="JPTL7328">
+        <From>
+          <StopPointRef>450021275</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450021225</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL6101</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FY">
+      <NationalOperatorCode>FWYO</NationalOperatorCode>
+      <OperatorCode>FWYO</OperatorCode>
+      <OperatorShortName>First West Yorkshire Ltd</OperatorShortName>
+      <OperatorNameOnLicence>First West Yorkshire Ltd</OperatorNameOnLicence>
+      <TradingName>First West Yorkshire Ltd</TradingName>
+      <LicenceNumber>PB0000815</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>Y_FG_FWYO_BATM_1</ServiceCode>
+      <PrivateCode>BATM</PrivateCode>
+      <Lines>
+        <Line id="SL62">
+          <LineName>BATM</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-02</StartDate>
+        <EndDate>2024-07-27</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>FY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <PublicUse>false</PublicUse>
+      <Description>Sowerby Br Pool - Beech Hill Primary</Description>
+      <StandardService>
+        <Origin>Sowerby Br Pool</Origin>
+        <Destination>Beech Hill Primary</Destination>
+        <JourneyPattern id="JP195">
+          <DestinationDisplay>Christ Church Sch</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT67</RouteRef>
+          <JourneyPatternSectionRefs>JPS153</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP196">
+          <DestinationDisplay>TrinityMAT Bradshaw</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT68</RouteRef>
+          <JourneyPatternSectionRefs>JPS154</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP197">
+          <DestinationDisplay>TrinityMAT Akroydon</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT65</RouteRef>
+          <JourneyPatternSectionRefs>JPS155</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP198">
+          <DestinationDisplay>Copley</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT69</RouteRef>
+          <JourneyPatternSectionRefs>JPS156</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP199">
+          <DestinationDisplay>Siddal PS</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT70</RouteRef>
+          <JourneyPatternSectionRefs>JPS157</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP200">
+          <DestinationDisplay>Beech Hill Primary</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT66</RouteRef>
+          <JourneyPatternSectionRefs>JPS158</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP201">
+          <DestinationDisplay>Brighouse Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT71</RouteRef>
+          <JourneyPatternSectionRefs>JPS159</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP202">
+          <DestinationDisplay>Sowerby Br Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT75</RouteRef>
+          <JourneyPatternSectionRefs>JPS160</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP203">
+          <DestinationDisplay>Sowerby Br Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT76</RouteRef>
+          <JourneyPatternSectionRefs>JPS161</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP204">
+          <DestinationDisplay>Sowerby Br Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT74</RouteRef>
+          <JourneyPatternSectionRefs>JPS162</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP205">
+          <DestinationDisplay>Sowerby Br Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT73</RouteRef>
+          <JourneyPatternSectionRefs>JPS163</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP206">
+          <DestinationDisplay>Sowerby Br Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT72</RouteRef>
+          <JourneyPatternSectionRefs>JPS164</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP207">
+          <DestinationDisplay>Holy Trinity Primar</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT199</RouteRef>
+          <JourneyPatternSectionRefs>JPS217</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP208">
+          <DestinationDisplay>Todmorden Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT200</RouteRef>
+          <JourneyPatternSectionRefs>JPS218</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP209">
+          <DestinationDisplay>St.Johns CE Clifton</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT255</RouteRef>
+          <JourneyPatternSectionRefs>JPS306</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP210">
+          <DestinationDisplay>TrinityMAT St.Chads</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT256</RouteRef>
+          <JourneyPatternSectionRefs>JPS307</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP211">
+          <DestinationDisplay>Brighouse Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT257</RouteRef>
+          <JourneyPatternSectionRefs>JPS308</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP212">
+          <DestinationDisplay>Brighouse Pool</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT258</RouteRef>
+          <JourneyPatternSectionRefs>JPS309</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="47">
+      <PrivateCode>BATMM:O:34:2:Monday-WD_VJ1</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP201</JourneyPatternRef>
+      <DepartureTime>09:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="48">
+      <PrivateCode>BATMM:O:31:2:Monday-WD_VJ2</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP205</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="49">
+      <PrivateCode>BATMM:O:23:2:Monday-WD_VJ3</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP201</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="50">
+      <PrivateCode>BATMM:O:25:2:Monday-WD_VJ4</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP201</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="51">
+      <PrivateCode>BATMM:O:27:2:Monday-WD_VJ5</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP202</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="52">
+      <PrivateCode>BATMM:I:34:3:Monday-WD_VJ6</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP197</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="53">
+      <PrivateCode>BATMM:I:31:3:Monday-WD_VJ7</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP195</JourneyPatternRef>
+      <DepartureTime>11:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="54">
+      <PrivateCode>BATMM:I:23:3:Monday-WD_VJ8</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP197</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="55">
+      <PrivateCode>BATMM:O:3:2:Monday-WD_VJ9</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP208</JourneyPatternRef>
+      <DepartureTime>12:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="56">
+      <PrivateCode>BATMM:I:27:3:Monday-WD_VJ10</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP198</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="57">
+      <PrivateCode>BATMM:I:25:3:Monday-WD_VJ11</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP197</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="58">
+      <PrivateCode>BATMM:O:32:3:Monday-WD_VJ12</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP206</JourneyPatternRef>
+      <DepartureTime>12:35:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="59">
+      <PrivateCode>BATMM:O:3:3:Monday-WD_VJ13</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP208</JourneyPatternRef>
+      <DepartureTime>12:37:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL5225</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT23M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="60">
+      <PrivateCode>BATMM:O:12:3:Monday-WD_VJ14</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP211</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="61">
+      <PrivateCode>BATMM:O:34:4:Monday-WD_VJ15</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP203</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="62">
+      <PrivateCode>BATMM:O:15:2:Monday-WD_VJ16</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP204</JourneyPatternRef>
+      <DepartureTime>13:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="63">
+      <PrivateCode>BATMM:O:32:4:Monday-WD_VJ17</PrivateCode>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP206</JourneyPatternRef>
+      <DepartureTime>13:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="64">
+      <PrivateCode>BATMM:O:12:4:Monday-WD_VJ18</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP212</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL7328</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT20M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="65">
+      <PrivateCode>BATMM:I:3:4:Monday-WD_VJ19</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP207</JourneyPatternRef>
+      <DepartureTime>13:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="66">
+      <PrivateCode>BATMM:I:32:5:Monday-WD_VJ20</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP200</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="67">
+      <PrivateCode>BATMM:I:3:5:Monday-WD_VJ21</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP207</JourneyPatternRef>
+      <DepartureTime>13:57:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL5224</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT23M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="68">
+      <PrivateCode>BATMM:I:12:5:Monday-WD_VJ22</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ22</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP209</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="69">
+      <PrivateCode>BATMM:I:5:3:Monday-WD_VJ23</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ23</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP200</JourneyPatternRef>
+      <DepartureTime>14:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="70">
+      <PrivateCode>BATMM:I:34:5:Monday-WD_VJ24</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ24</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP199</JourneyPatternRef>
+      <DepartureTime>13:50:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="71">
+      <PrivateCode>BATMM:I:12:6:Monday-WD_VJ25</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ25</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP210</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL7326</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT35M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="72">
+      <PrivateCode>BATMM:I:15:3:Monday-WD_VJ26</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoronationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ26</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FWYO_BATM_1</ServiceRef>
+      <LineRef>SL62</LineRef>
+      <JourneyPatternRef>JP196</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

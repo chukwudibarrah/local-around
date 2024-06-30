@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-26T13:57:21.128" ModificationDateTime="2024-06-26T13:57:21.128" Modification="new" RevisionNumber="0" FileName="RS1_DDIS_PB_RS1_20230417_20240626_135759.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01298</StopPointRef>
+      <CommonName>White Horse</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA91136</StopPointRef>
+      <CommonName>Clotherholme Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA91137</StopPointRef>
+      <CommonName>Lark Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA91138</StopPointRef>
+      <CommonName>The Cemetery</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA91139</StopPointRef>
+      <CommonName>Lark Lane</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA91140</StopPointRef>
+      <CommonName>Kirkby Road</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YND12810</StopPointRef>
+      <CommonName>Bus Station Stand 1</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04444</StopPointRef>
+      <CommonName>Ripon School</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA97179</StopPointRef>
+      <CommonName>Marks and Spencer</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA97180</StopPointRef>
+      <CommonName>Ash Bank Avenue</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA97181</StopPointRef>
+      <CommonName>Chatham Road</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="1">
+      <RouteLink id="1_1">
+        <From>
+          <StopPointRef>3200YND12810</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA91136</StopPointRef>
+        </To>
+        <Distance>824</Distance>
+      </RouteLink>
+      <RouteLink id="1_2">
+        <From>
+          <StopPointRef>3200YNA91136</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNE04444</StopPointRef>
+        </To>
+        <Distance>435</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2">
+      <RouteLink id="2_1">
+        <From>
+          <StopPointRef>3200YNE04444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97180</StopPointRef>
+        </To>
+        <Distance>1048</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="3">
+      <RouteLink id="3_1">
+        <From>
+          <StopPointRef>3200YNA97180</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97181</StopPointRef>
+        </To>
+        <Distance>743</Distance>
+      </RouteLink>
+      <RouteLink id="3_2">
+        <From>
+          <StopPointRef>3200YNA97181</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA91137</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="4">
+      <RouteLink id="4_1">
+        <From>
+          <StopPointRef>3200YNA91137</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA91139</StopPointRef>
+        </To>
+        <Distance>486</Distance>
+      </RouteLink>
+      <RouteLink id="4_2">
+        <From>
+          <StopPointRef>3200YNA91139</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA91140</StopPointRef>
+        </To>
+        <Distance>27</Distance>
+      </RouteLink>
+      <RouteLink id="4_3">
+        <From>
+          <StopPointRef>3200YNA91140</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA91138</StopPointRef>
+        </To>
+        <Distance>278</Distance>
+      </RouteLink>
+      <RouteLink id="4_4">
+        <From>
+          <StopPointRef>3200YNA91138</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA01298</StopPointRef>
+        </To>
+        <Distance>1041</Distance>
+      </RouteLink>
+      <RouteLink id="4_5">
+        <From>
+          <StopPointRef>3200YNA01298</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YND12810</StopPointRef>
+        </To>
+        <Distance>449</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="5">
+      <RouteLink id="5_1">
+        <From>
+          <StopPointRef>3200YND12810</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97179</StopPointRef>
+        </To>
+        <Distance>715</Distance>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="6">
+      <RouteLink id="6_1">
+        <From>
+          <StopPointRef>3200YNA97179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YND12810</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="1">
+      <Description>Ripon Bus Station - Lark Lane Circular</Description>
+      <RouteSectionRef>1</RouteSectionRef>
+      <RouteSectionRef>2</RouteSectionRef>
+      <RouteSectionRef>3</RouteSectionRef>
+      <RouteSectionRef>4</RouteSectionRef>
+    </Route>
+    <Route id="2">
+      <Description>Ripon Bus Station - Lark Lane Circular</Description>
+      <RouteSectionRef>5</RouteSectionRef>
+      <RouteSectionRef>6</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="1">
+      <JourneyPatternTimingLink id="1_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Lark Lane</DynamicDestinationDisplay>
+          <StopPointRef>3200YND12810</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <StopPointRef>3200YNA91136</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_1</RouteLinkRef>
+        <RunTime>PT0H1M57S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="1_2">
+        <From SequenceNumber="1">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA91136</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3200YNE04444</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_2</RouteLinkRef>
+        <RunTime>PT0H1M3S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="2">
+      <JourneyPatternTimingLink id="2_1">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNE04444</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3200YNA97180</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_1</RouteLinkRef>
+        <RunTime>PT0H3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="3">
+      <JourneyPatternTimingLink id="3_1">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97180</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3200YNA97181</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>3_1</RouteLinkRef>
+        <RunTime>PT0H5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="3_2">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97181</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>3200YNA91137</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>3_2</RouteLinkRef>
+        <RunTime>PT0H0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="4">
+      <JourneyPatternTimingLink id="4_1">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Ripon Bus Station</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA91137</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>3200YNA91139</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_1</RouteLinkRef>
+        <RunTime>PT0H1M16S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="4_2">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA91139</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <StopPointRef>3200YNA91140</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_2</RouteLinkRef>
+        <RunTime>PT0H0M4S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="4_3">
+        <From SequenceNumber="7">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA91140</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="8">
+          <StopPointRef>3200YNA91138</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_3</RouteLinkRef>
+        <RunTime>PT0H0M43S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="4_4">
+        <From SequenceNumber="8">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA91138</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="9">
+          <StopPointRef>3200YNA01298</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_4</RouteLinkRef>
+        <RunTime>PT0H2M44S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="4_5">
+        <From SequenceNumber="9">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA01298</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="10">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YND12810</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_5</RouteLinkRef>
+        <RunTime>PT0H1M13S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="5">
+      <JourneyPatternTimingLink id="5_1">
+        <From SequenceNumber="10">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Marks and Spencer</DynamicDestinationDisplay>
+          <StopPointRef>3200YND12810</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="11">
+          <StopPointRef>3200YNA97179</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>5_1</RouteLinkRef>
+        <RunTime>PT0H2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="6">
+      <JourneyPatternTimingLink id="6_1">
+        <From SequenceNumber="11">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Ripon Bus Station</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA97179</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YND12810</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>6_1</RouteLinkRef>
+        <RunTime>PT0H5M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="7778472">
+      <NationalOperatorCode>DDIS</NationalOperatorCode>
+      <OperatorCode>DDA</OperatorCode>
+      <OperatorShortName>Dales and District</OperatorShortName>
+      <OperatorNameOnLicence>Procters Coaches (North Yorkshire) Ltd</OperatorNameOnLicence>
+      <TradingName>Dales and District</TradingName>
+      <LicenceNumber>PB0004318</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>RS1</ServiceCode>
+      <Lines>
+        <Line id="1">
+          <LineName>RS1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-04-17</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>7778472</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Ripon Bus Station - Lark Lane Circular</Description>
+      <StandardService>
+        <Origin>Ripon Bus Station</Origin>
+        <Destination>Ripon Bus Station</Destination>
+        <Vias>
+          <Via>Lark Lane</Via>
+        </Vias>
+        <JourneyPattern id="1">
+          <Direction>outbound</Direction>
+          <RouteRef>1</RouteRef>
+          <JourneyPatternSectionRefs>1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="2">
+          <Direction>outbound</Direction>
+          <RouteRef>2</RouteRef>
+          <JourneyPatternSectionRefs>5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="1_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>08:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="2_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>08:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="3_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="3_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="4_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="4_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>5</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>09:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="5_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>6</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="6_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="6_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>7</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>10:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="7_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="7_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>8</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>10:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="8_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="8_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>9</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>10:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="9_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="9_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>10</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>11:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="10_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="10_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>11</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>11:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="11_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="11_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>12</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>11:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="12_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="12_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>13</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>12:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="13_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="13_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>14</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>13:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="14_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="14_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>15</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>13:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="15_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="15_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>16</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>13:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="16_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="16_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>17</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>14:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="17_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="17_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>18</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>14:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="18_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="18_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>19</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>14:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="19_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="19_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>20</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>15:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="20_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="20_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>21</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>15:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="21_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="21_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>22</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>15:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="22_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="22_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>23</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>16:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="23_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="23_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>24</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="24_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="24_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>25</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>2</JourneyPatternRef>
+      <DepartureTime>17:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="25_1">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="25_2">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>26</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>17:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="26_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="26_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToSaturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>27</VehicleJourneyCode>
+      <ServiceRef>RS1</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>18:15:00</DepartureTime>
+      <VehicleJourneyTimingLink id="27_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_5">
+        <JourneyPatternTimingLinkRef>3_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_6">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_7">
+        <JourneyPatternTimingLinkRef>4_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_8">
+        <JourneyPatternTimingLinkRef>4_3</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_9">
+        <JourneyPatternTimingLinkRef>4_4</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="27_10">
+        <JourneyPatternTimingLinkRef>4_5</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-25T10:03:43" ModificationDateTime="2024-06-25T10:03:43" Modification="new" RevisionNumber="0" FileName="SVRYYAO021X.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04682</StopPointRef>
+      <CommonName>Grange Farm</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Colton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3290YYA00824</StopPointRef>
+      <CommonName>Askham Bar Tesco</CommonName>
+      <Indicator>ADJ CAR PARK</Indicator>
+      <LocalityName>Askham Bar</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="1071">
+      <RouteLink id="1071_200">
+        <From>
+          <StopPointRef>3200YNE04682</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3290YYA00824</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="1071">
+      <PrivateCode>1071</PrivateCode>
+      <Description>Colton - Askham Bar</Description>
+      <RouteSectionRef>1071</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YYAO021X-2">
+      <JourneyPatternTimingLink id="JPS_YYAO021X-2_1071_200">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Askham Bar</DynamicDestinationDisplay>
+          <StopPointRef>3200YNE04682</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Askham Bar</DynamicDestinationDisplay>
+          <StopPointRef>3290YYA00824</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>1071_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="YPC">
+      <NationalOperatorCode>KJTR</NationalOperatorCode>
+      <OperatorCode>YPC</OperatorCode>
+      <OperatorShortName>York Pullman Bus Company</OperatorShortName>
+      <OperatorNameOnLicence>York Pullman Bus Company Ltd</OperatorNameOnLicence>
+      <TradingName>York Pullman Bus Company</TradingName>
+      <LicenceNumber>PB1081341</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YYAO021X</ServiceCode>
+      <Lines>
+        <Line id="YPC">
+          <LineName>21x</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2021-06-28</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>YPC</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Colton - Askham Bar</Description>
+      <StandardService>
+        <Origin>Colton</Origin>
+        <Destination>Askham Bar</Destination>
+        <JourneyPattern id="JP_YYAO021X-2">
+          <DestinationDisplay>Askham Bar</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YYAO021X-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>1071_3244_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1071_3244_1_0</VehicleJourneyCode>
+      <ServiceRef>YYAO021X</ServiceRef>
+      <LineRef>YPC</LineRef>
+      <JourneyPatternRef>JP_YYAO021X-2</JourneyPatternRef>
+      <DepartureTime>18:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>1071_3245_1_2</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1071_3245_1_2</VehicleJourneyCode>
+      <ServiceRef>YYAO021X</ServiceRef>
+      <LineRef>YPC</LineRef>
+      <JourneyPatternRef>JP_YYAO021X-2</JourneyPatternRef>
+      <DepartureTime>18:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-28T09:15:32" ModificationDateTime="2024-06-28T09:15:32" Modification="new" RevisionNumber="0" FileName="SVRYEBO070.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00340</StopPointRef>
+      <CommonName>Withernsea Queen St</CommonName>
+      <Indicator>22000340</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00341</StopPointRef>
+      <CommonName>Withernsea Queen St</CommonName>
+      <Indicator>22000341</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00343</StopPointRef>
+      <CommonName>Withernsea Queen St</CommonName>
+      <Indicator>22000343</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00344</StopPointRef>
+      <CommonName>Withernsea Queen St</CommonName>
+      <Indicator>22000344</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00903</StopPointRef>
+      <CommonName>Withernsea Waxholme</CommonName>
+      <Indicator>22000903</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00904</StopPointRef>
+      <CommonName>Withernsea Waxholme</CommonName>
+      <Indicator>22000904</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00906</StopPointRef>
+      <CommonName>Withernsea North Ro</CommonName>
+      <Indicator>22000906</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01669</StopPointRef>
+      <CommonName>Withernsea Queen St</CommonName>
+      <Indicator>22001669</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01671</StopPointRef>
+      <CommonName>Withernsea North Ro</CommonName>
+      <Indicator>22001671</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01308</StopPointRef>
+      <CommonName>Withernsea Station </CommonName>
+      <Indicator>22001308</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01309</StopPointRef>
+      <CommonName>Withernsea Rycroft </CommonName>
+      <Indicator>22001309</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEZ01310</StopPointRef>
+      <CommonName>Withernsea Louivill</CommonName>
+      <Indicator>22001310</Indicator>
+      <LocalityName>Withernsea</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="2382">
+      <RouteLink id="2382_100">
+        <From>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00340</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_200">
+        <From>
+          <StopPointRef>2200YEA00340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01669</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_300">
+        <From>
+          <StopPointRef>2200YEA01669</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00343</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_400">
+        <From>
+          <StopPointRef>2200YEA00343</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_500">
+        <From>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00344</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_600">
+        <From>
+          <StopPointRef>2200YEA00344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_700">
+        <From>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00341</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_800">
+        <From>
+          <StopPointRef>2200YEA00341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_900">
+        <From>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00903</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_1000">
+        <From>
+          <StopPointRef>2200YEA00903</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00904</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_1100">
+        <From>
+          <StopPointRef>2200YEA00904</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01671</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_1200">
+        <From>
+          <StopPointRef>2200YEA01671</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00906</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2382_1300">
+        <From>
+          <StopPointRef>2200YEA00906</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2383">
+      <RouteLink id="2383_100">
+        <From>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00340</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_200">
+        <From>
+          <StopPointRef>2200YEA00340</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01669</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_300">
+        <From>
+          <StopPointRef>2200YEA01669</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00343</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_400">
+        <From>
+          <StopPointRef>2200YEA00343</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_500">
+        <From>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00344</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_600">
+        <From>
+          <StopPointRef>2200YEA00344</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_700">
+        <From>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00341</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2383_800">
+        <From>
+          <StopPointRef>2200YEA00341</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="2382">
+      <PrivateCode>2382</PrivateCode>
+      <Description>Withernsea Town (Circular)</Description>
+      <RouteSectionRef>2382</RouteSectionRef>
+    </Route>
+    <Route id="2383">
+      <PrivateCode>2383</PrivateCode>
+      <Description>Withernsea Town (Circular)</Description>
+      <RouteSectionRef>2383</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YEBO070-3">
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01669</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01669</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_500">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_600">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_800">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_900">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00903</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_900</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_1000">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00903</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00904</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_1000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_1100">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00904</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01671</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_1200">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01671</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00906</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_1200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-3_2382_1300">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00906</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2382_1300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YEBO070-4">
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_100">
+        <From SequenceNumber="141">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="142">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_200">
+        <From SequenceNumber="151">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00340</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="152">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01669</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_300">
+        <From SequenceNumber="161">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01669</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="162">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_400">
+        <From SequenceNumber="171">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00343</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="172">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_500">
+        <From SequenceNumber="181">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01310</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="182">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_600">
+        <From SequenceNumber="191">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00344</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="192">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_700">
+        <From SequenceNumber="201">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01309</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="202">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEBO070-4_2383_800">
+        <From SequenceNumber="211">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00341</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="212">
+          <DynamicDestinationDisplay>Withernsea</DynamicDestinationDisplay>
+          <StopPointRef>2200YEZ01308</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2383_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="HAR">
+      <NationalOperatorCode>YHAR</NationalOperatorCode>
+      <OperatorCode>HAR</OperatorCode>
+      <OperatorShortName>North Holderness Communi</OperatorShortName>
+      <OperatorNameOnLicence>North Holderness Community Transport</OperatorNameOnLicence>
+      <TradingName>North Holderness Community Transport (Hart)</TradingName>
+      <LicenceNumber>PB0000000</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YEBO070</ServiceCode>
+      <Lines>
+        <Line id="HAR">
+          <LineName>70</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-04-02</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>HAR</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Withernsea Town (Circular)</Description>
+      <StandardService>
+        <Origin>Withernsea Town (Circular)</Origin>
+        <Destination>Withernsea Town (Circular)</Destination>
+        <JourneyPattern id="JP_YEBO070-3">
+          <DestinationDisplay>Withernsea Town (Circular)</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEBO070-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YEBO070-4">
+          <DestinationDisplay>Withernsea Town (Circular)</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEBO070-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>2382_17068_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2382_17068_1_0</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-3</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2382_17068_2_14</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2382_17068_2_14</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-3</JourneyPatternRef>
+      <DepartureTime>10:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2382_17068_3_28</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2382_17068_3_28</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-3</JourneyPatternRef>
+      <DepartureTime>11:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2382_17068_4_42</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2382_17068_4_42</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-3</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2382_17068_5_56</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2382_17068_5_56</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2383_17068_6_70</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2383_17068_6_70</VehicleJourneyCode>
+      <ServiceRef>YEBO070</ServiceRef>
+      <LineRef>HAR</LineRef>
+      <JourneyPatternRef>JP_YEBO070-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

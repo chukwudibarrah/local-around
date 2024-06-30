@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-26T13:57:21.067" ModificationDateTime="2024-06-26T13:57:21.067" Modification="new" RevisionNumber="0" FileName="NYC 74C_NYCC_PB_74C_20240617_20240626_135738.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA01581</StopPointRef>
+      <CommonName>The Buck Inn</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90141</StopPointRef>
+      <CommonName>Town Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNB00057</StopPointRef>
+      <CommonName>Friarage Gardens</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04302</StopPointRef>
+      <CommonName>Swain Court</CommonName>
+    </AnnotatedStopPointRef>
+    <StopPoint CreationDateTime="2024-05-15T12:05:44.014">
+      <AtcoCode>3200YNA97203</AtcoCode>
+      <Descriptor>
+        <CommonName>Cotswold Street</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049049</NptgLocalityRef>
+        <Location>
+          <Easting>0</Easting>
+          <Northing>0</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>092</AdministrativeAreaRef>
+    </StopPoint>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="1">
+      <RouteLink id="1_1">
+        <From>
+          <StopPointRef>3200YNA01581</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNE04302</StopPointRef>
+        </To>
+        <Distance>346</Distance>
+      </RouteLink>
+      <RouteLink id="1_2">
+        <From>
+          <StopPointRef>3200YNE04302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA97203</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2">
+      <RouteLink id="2_1">
+        <From>
+          <StopPointRef>3200YNA97203</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNB00057</StopPointRef>
+        </To>
+        <Distance>1211</Distance>
+      </RouteLink>
+      <RouteLink id="2_2">
+        <From>
+          <StopPointRef>3200YNB00057</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90141</StopPointRef>
+        </To>
+        <Distance>329</Distance>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="1">
+      <Description>Buck Inn - Town Hall</Description>
+      <RouteSectionRef>1</RouteSectionRef>
+      <RouteSectionRef>2</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="1">
+      <JourneyPatternTimingLink id="1_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA01581</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <StopPointRef>3200YNE04302</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_1</RouteLinkRef>
+        <RunTime>PT0H7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="1_2">
+        <From SequenceNumber="1">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNE04302</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3200YNA97203</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_2</RouteLinkRef>
+        <RunTime>PT0H0M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="2">
+      <JourneyPatternTimingLink id="2_1">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97203</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3200YNB00057</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_1</RouteLinkRef>
+        <RunTime>PT0H3M55S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="2_2">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNB00057</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA90141</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_2</RouteLinkRef>
+        <RunTime>PT0H1M5S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_74C-3">
+      <JourneyPatternTimingLink id="JPS_74C-3_1_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <StopPointRef>3200YNA01581</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <StopPointRef>3200YNE04302</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_1</RouteLinkRef>
+        <RunTime>PT0H9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_74C-3_1_2">
+        <From SequenceNumber="1">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNE04302</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3200YNA97203</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_2</RouteLinkRef>
+        <RunTime>PT0H0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_74C-3_2_1">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA97203</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3200YNB00057</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_1</RouteLinkRef>
+        <RunTime>PT0H2M21S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_74C-3_2_2">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNB00057</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA90141</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_2</RouteLinkRef>
+        <RunTime>PT0H0M39S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="7778480">
+      <NationalOperatorCode>NYCC</NationalOperatorCode>
+      <OperatorCode>NYC</OperatorCode>
+      <OperatorShortName>Nyc</OperatorShortName>
+      <OperatorNameOnLicence>North Yorkshire Council</OperatorNameOnLicence>
+      <TradingName>Nyc</TradingName>
+      <LicenceNumber>CB0000655</LicenceNumber>
+      <LicenceClassification>communityBusPermit</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>74C</ServiceCode>
+      <Lines>
+        <Line id="1">
+          <LineName>NYC 74C</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-17</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>7778480</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Northallerton North Road circular</Description>
+      <StandardService>
+        <Origin>Northallerton, Buck Inn</Origin>
+        <Destination>Town Hall</Destination>
+        <JourneyPattern id="1">
+          <DestinationDisplay>Town Hall</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>1</RouteRef>
+          <JourneyPatternSectionRefs>1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_74C-2">
+          <DestinationDisplay>Town Hall</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_74C-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>09:00:00</DepartureTime>
+      <VehicleJourneyTimingLink id="1_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+      <VehicleJourneyTimingLink id="2_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>3</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>10:11:00</DepartureTime>
+      <VehicleJourneyTimingLink id="3_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="3_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="3_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="3_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>4</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>JP_74C-2</JourneyPatternRef>
+      <DepartureTime>11:31:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>5</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>12:10:00</DepartureTime>
+      <VehicleJourneyTimingLink id="5_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="5_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>6</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>13:21:00</DepartureTime>
+      <VehicleJourneyTimingLink id="6_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="6_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="6_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="6_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778480</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>7</VehicleJourneyCode>
+      <ServiceRef>74C</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>13:39:00</DepartureTime>
+      <VehicleJourneyTimingLink id="7_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="7_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="7_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="7_4">
+        <JourneyPatternTimingLinkRef>2_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

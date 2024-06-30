@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-04T14:05:50" ModificationDateTime="2024-06-04T14:05:50" Modification="new" RevisionNumber="1" FileName="FSYO_718_1.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>ORG1</OrganisationCode>
+      <Name>Schooldays</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2023-01-03</StartDate>
+          <EndDate>2023-02-11</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-02-20</StartDate>
+          <EndDate>2023-03-31</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-04-17</StartDate>
+          <EndDate>2023-05-26</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-09-04</StartDate>
+          <EndDate>2023-10-20</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-10-30</StartDate>
+          <EndDate>2023-12-22</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-28</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022013</StopPointRef>
+      <CommonName>Leighton Road/Fleury Road</CommonName>
+      <LocalityName>Gleadless Valley</LocalityName>
+      <LocalityQualifier>Gleadless</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022015</StopPointRef>
+      <CommonName>Leighton Road/Fleury Road</CommonName>
+      <LocalityName>Gleadless Valley</LocalityName>
+      <LocalityQualifier>Gleadless</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022017</StopPointRef>
+      <CommonName>Leighton Road/Fleury Road</CommonName>
+      <LocalityName>Gleadless Valley</LocalityName>
+      <LocalityQualifier>Gleadless</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022021</StopPointRef>
+      <CommonName>Raeburn Road/Leighton Road</CommonName>
+      <LocalityName>Herdings</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022022</StopPointRef>
+      <CommonName>Raeburn Road/Morland Road</CommonName>
+      <LocalityName>Herdings</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022024</StopPointRef>
+      <CommonName>Raeburn Road/Morland Road</CommonName>
+      <LocalityName>Herdings</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022030</StopPointRef>
+      <CommonName>Raeburn Road/Raeburn Close</CommonName>
+      <LocalityName>Herdings</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022579</StopPointRef>
+      <CommonName>Leighton Road/Spotswood Mount</CommonName>
+      <LocalityName>Gleadless Valley</LocalityName>
+      <LocalityQualifier>Gleadless</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022637</StopPointRef>
+      <CommonName>Gleadless Road/Newfield Green</CommonName>
+      <LocalityName>Newfield Green</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022646</StopPointRef>
+      <CommonName>Eastern Avenue/Eastern Drive</CommonName>
+      <LocalityName>Arbourthorne</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022647</StopPointRef>
+      <CommonName>East Bank Road/Eastern Crescent</CommonName>
+      <LocalityName>Arbourthorne</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022659</StopPointRef>
+      <CommonName>Gleadless Road/Daresbury Road</CommonName>
+      <LocalityName>Newfield Green</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370023046</StopPointRef>
+      <CommonName>City Road/Eastern Avenue</CommonName>
+      <LocalityName>Manor Top</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370023886</StopPointRef>
+      <CommonName>Eastern Avenue/Edenhall Road</CommonName>
+      <LocalityName>Arbourthorne</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370023887</StopPointRef>
+      <CommonName>Eastern Avenue/Dagnam Road</CommonName>
+      <LocalityName>Arbourthorne</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370025292</StopPointRef>
+      <CommonName>Prince of Wales Road/City Road</CommonName>
+      <LocalityName>Manor Top</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027444</StopPointRef>
+      <CommonName>Lees Hall Road/Harvey Clough Road</CommonName>
+      <LocalityName>Norton Lees</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027566</StopPointRef>
+      <CommonName>Eastern Avenue/Algar Road</CommonName>
+      <LocalityName>Arbourthorne</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS73">
+      <RouteLink id="RL4005">
+        <From>
+          <StopPointRef>370027444</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022030</StopPointRef>
+        </To>
+        <Distance>3295</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4006">
+        <From>
+          <StopPointRef>370022030</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022024</StopPointRef>
+        </To>
+        <Distance>906</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4007">
+        <From>
+          <StopPointRef>370022024</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022022</StopPointRef>
+        </To>
+        <Distance>341</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4008">
+        <From>
+          <StopPointRef>370022022</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022021</StopPointRef>
+        </To>
+        <Distance>253</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4009">
+        <From>
+          <StopPointRef>370022021</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022017</StopPointRef>
+        </To>
+        <Distance>360</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4010">
+        <From>
+          <StopPointRef>370022017</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022015</StopPointRef>
+        </To>
+        <Distance>338</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4011">
+        <From>
+          <StopPointRef>370022015</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022013</StopPointRef>
+        </To>
+        <Distance>239</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4012">
+        <From>
+          <StopPointRef>370022013</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022579</StopPointRef>
+        </To>
+        <Distance>263</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4013">
+        <From>
+          <StopPointRef>370022579</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022637</StopPointRef>
+        </To>
+        <Distance>438</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4014">
+        <From>
+          <StopPointRef>370022637</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022659</StopPointRef>
+        </To>
+        <Distance>306</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4015">
+        <From>
+          <StopPointRef>370022659</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022647</StopPointRef>
+        </To>
+        <Distance>414</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4016">
+        <From>
+          <StopPointRef>370022647</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022646</StopPointRef>
+        </To>
+        <Distance>324</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4017">
+        <From>
+          <StopPointRef>370022646</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027566</StopPointRef>
+        </To>
+        <Distance>492</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4018">
+        <From>
+          <StopPointRef>370027566</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370023887</StopPointRef>
+        </To>
+        <Distance>321</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4019">
+        <From>
+          <StopPointRef>370023887</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370023886</StopPointRef>
+        </To>
+        <Distance>230</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4020">
+        <From>
+          <StopPointRef>370023886</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370023046</StopPointRef>
+        </To>
+        <Distance>206</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL4021">
+        <From>
+          <StopPointRef>370023046</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370025292</StopPointRef>
+        </To>
+        <Distance>256</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT73">
+      <PrivateCode>FYSO718-73</PrivateCode>
+      <Description>Newfield School - Manor Top, Prince of Wales Rd</Description>
+      <RouteSectionRef>RS73</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS2788">
+      <JourneyPatternTimingLink id="JPTL172656">
+        <From>
+          <StopPointRef>370027444</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022030</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4005</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172657">
+        <From>
+          <StopPointRef>370022030</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022024</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4006</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172658">
+        <From>
+          <StopPointRef>370022024</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4007</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172659">
+        <From>
+          <StopPointRef>370022022</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022021</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4008</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172660">
+        <From>
+          <StopPointRef>370022021</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4009</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172661">
+        <From>
+          <StopPointRef>370022017</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022015</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4010</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172662">
+        <From>
+          <StopPointRef>370022015</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022013</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4011</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172663">
+        <From>
+          <StopPointRef>370022013</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022579</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4012</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172664">
+        <From>
+          <StopPointRef>370022579</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022637</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4013</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172665">
+        <From>
+          <StopPointRef>370022637</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4014</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172666">
+        <From>
+          <StopPointRef>370022659</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022647</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4015</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172667">
+        <From>
+          <StopPointRef>370022647</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022646</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4016</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172668">
+        <From>
+          <StopPointRef>370022646</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370027566</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4017</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172669">
+        <From>
+          <StopPointRef>370027566</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370023887</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4018</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172670">
+        <From>
+          <StopPointRef>370023887</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370023886</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4019</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172671">
+        <From>
+          <StopPointRef>370023886</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370023046</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4020</RouteLinkRef>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL172672">
+        <From>
+          <StopPointRef>370023046</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370025292</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL4021</RouteLinkRef>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FSY">
+      <NationalOperatorCode>FSYO</NationalOperatorCode>
+      <OperatorCode>FSYO</OperatorCode>
+      <OperatorShortName>First South Yorkshire</OperatorShortName>
+      <OperatorNameOnLicence>First South Yorkshire Limited</OperatorNameOnLicence>
+      <TradingName>First</TradingName>
+      <LicenceNumber>PB0002307</LicenceNumber>
+      <LicenceClassification>standardInternational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>Y_FG_FSYO_718_1</ServiceCode>
+      <PrivateCode>FYSO718</PrivateCode>
+      <Lines>
+        <Line id="SL43">
+          <LineName>718</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-16</StartDate>
+        <EndDate>2024-07-27</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>FSY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <PublicUse>true</PublicUse>
+      <Description>Newfield School - Manor Top</Description>
+      <StandardService>
+        <Origin>Newfield School</Origin>
+        <Destination>Manor Top</Destination>
+        <JourneyPattern id="JP2792">
+          <DestinationDisplay>Manor Top</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT73</RouteRef>
+          <JourneyPatternSectionRefs>JPS2788</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="5391">
+      <PrivateCode>FYSO718M:I:50:8:xmuj0ahrc_VJ1</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_718_1</ServiceRef>
+      <LineRef>SL43</LineRef>
+      <JourneyPatternRef>JP2792</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL172656</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT7M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5392">
+      <PrivateCode>FYSO718TWH:I:50:8:z06s5a5yw_VJ2</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_718_1</ServiceRef>
+      <LineRef>SL43</LineRef>
+      <JourneyPatternRef>JP2792</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL172656</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT7M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5393">
+      <PrivateCode>FYSO718F:I:50:8:y6d9olwkn_VJ3</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_718_1</ServiceRef>
+      <LineRef>SL43</LineRef>
+      <JourneyPatternRef>JP2792</JourneyPatternRef>
+      <DepartureTime>14:48:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL172656</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT7M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

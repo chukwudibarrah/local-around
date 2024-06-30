@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-28T09:15:27" ModificationDateTime="2024-06-28T09:15:27" Modification="new" RevisionNumber="0" FileName="SVRYEAO200.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00036</StopPointRef>
+      <CommonName>Pocklington Eyms De</CommonName>
+      <Indicator>22000036</Indicator>
+      <LocalityName>Pocklington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00037</StopPointRef>
+      <CommonName>Pocklington Opp EYM</CommonName>
+      <Indicator>22000037</Indicator>
+      <LocalityName>Pocklington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01051</StopPointRef>
+      <CommonName>Fridaythorpe Thixen</CommonName>
+      <Indicator>22001051</Indicator>
+      <LocalityName>Fridaythorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01052</StopPointRef>
+      <CommonName>Huggate Stocks Hill</CommonName>
+      <Indicator>22001052</Indicator>
+      <LocalityName>Huggate</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01655</StopPointRef>
+      <CommonName>Pocklington Chapman</CommonName>
+      <Indicator>22001655</Indicator>
+      <LocalityName>Pocklington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11772</StopPointRef>
+      <CommonName>Pocklington Junior </CommonName>
+      <Indicator>22011772</Indicator>
+      <LocalityName>Pocklington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11798</StopPointRef>
+      <CommonName>Millington Martin L</CommonName>
+      <Indicator>22011798</Indicator>
+      <LocalityName>Millington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA12024</StopPointRef>
+      <CommonName>Millington Heights </CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Millington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA12025</StopPointRef>
+      <CommonName>Millington Gait Inn</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Millington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA12027</StopPointRef>
+      <CommonName>Millington Heights </CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Millington</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04435</StopPointRef>
+      <CommonName>Post Office</CommonName>
+      <Indicator>MISSING</Indicator>
+      <LocalityName>Thixendale</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04436</StopPointRef>
+      <CommonName>Vicarage</CommonName>
+      <Indicator>MISSING</Indicator>
+      <LocalityName>Thixendale</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="2427">
+      <RouteLink id="2427_100">
+        <From>
+          <StopPointRef>2200YEA00037</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01655</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_200">
+        <From>
+          <StopPointRef>2200YEA01655</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11772</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_300">
+        <From>
+          <StopPointRef>2200YEA11772</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11798</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_400">
+        <From>
+          <StopPointRef>2200YEA11798</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA12025</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_500">
+        <From>
+          <StopPointRef>2200YEA12025</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA12027</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_600">
+        <From>
+          <StopPointRef>2200YEA12027</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01052</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_700">
+        <From>
+          <StopPointRef>2200YEA01052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01051</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2427_800">
+        <From>
+          <StopPointRef>2200YEA01051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNE04436</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2428">
+      <RouteLink id="2428_100">
+        <From>
+          <StopPointRef>3200YNE04435</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01051</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2428_200">
+        <From>
+          <StopPointRef>2200YEA01051</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01052</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2428_300">
+        <From>
+          <StopPointRef>2200YEA01052</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA12024</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2428_400">
+        <From>
+          <StopPointRef>2200YEA12024</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00036</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="2427">
+      <PrivateCode>2427</PrivateCode>
+      <Description>Pocklington - Thixendale</Description>
+      <RouteSectionRef>2427</RouteSectionRef>
+    </Route>
+    <Route id="2428">
+      <PrivateCode>2428</PrivateCode>
+      <Description>Thixendale - Pocklington</Description>
+      <RouteSectionRef>2428</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YEAO200-3">
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00037</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01655</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01655</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11772</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11772</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11798</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11798</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12025</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_500">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12025</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12027</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_600">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12027</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-3_2427_800">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Thixendale</DynamicDestinationDisplay>
+          <StopPointRef>3200YNE04436</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2427_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YEAO200-4">
+      <JourneyPatternTimingLink id="JPS_YEAO200-4_2428_100">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>3200YNE04435</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2428_100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-4_2428_200">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01051</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2428_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-4_2428_300">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01052</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12024</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2428_300</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT18M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YEAO200-4_2428_400">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA12024</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Pocklington</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00036</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2428_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="EYM">
+      <NationalOperatorCode>EYMS</NationalOperatorCode>
+      <OperatorCode>EYM</OperatorCode>
+      <OperatorShortName>East Yorkshire</OperatorShortName>
+      <OperatorNameOnLicence>East Yorkshire Motor Services Ltd</OperatorNameOnLicence>
+      <TradingName>East Yorkshire</TradingName>
+      <LicenceNumber>PB0000328</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YEAO200</ServiceCode>
+      <Lines>
+        <Line id="EYM">
+          <LineName>200</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-03-30</StartDate>
+        <EndDate>2024-09-29</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>EYM</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Pocklington - Thixendale</Description>
+      <StandardService>
+        <Origin>Pocklington</Origin>
+        <Destination>Thixendale</Destination>
+        <JourneyPattern id="JP_YEAO200-3">
+          <DestinationDisplay>Thixendale</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEAO200-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YEAO200-4">
+          <DestinationDisplay>Thixendale</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YEAO200-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>2427_17117_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2427_17117_1_0</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-3</JourneyPatternRef>
+      <DepartureTime>10:10:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2427_17117_2_9</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2427_17117_2_9</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-3</JourneyPatternRef>
+      <DepartureTime>13:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2427_17117_3_18</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2427_17117_3_18</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-3</JourneyPatternRef>
+      <DepartureTime>15:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2427_17118_1_27</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2427_17118_1_27</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-3</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2427_17118_2_36</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2427_17118_2_36</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-3</JourneyPatternRef>
+      <DepartureTime>15:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2428_17120_1_45</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2428_17120_1_45</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-4</JourneyPatternRef>
+      <DepartureTime>11:05:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2428_17120_2_50</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2428_17120_2_50</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-4</JourneyPatternRef>
+      <DepartureTime>14:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2428_17120_3_55</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2428_17120_3_55</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-4</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2428_17121_1_60</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2428_17121_1_60</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-4</JourneyPatternRef>
+      <DepartureTime>12:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2428_17121_2_65</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2428_17121_2_65</VehicleJourneyCode>
+      <ServiceRef>YEAO200</ServiceRef>
+      <LineRef>EYM</LineRef>
+      <JourneyPatternRef>JP_YEAO200-4</JourneyPatternRef>
+      <DepartureTime>16:15:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

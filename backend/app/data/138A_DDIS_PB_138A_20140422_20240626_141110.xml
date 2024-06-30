@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-26T13:57:24.188" ModificationDateTime="2024-06-26T13:57:24.188" Modification="new" RevisionNumber="0" FileName="138A_DDIS_PB_138A_20140422_20240626_141110.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90882</StopPointRef>
+      <CommonName>The Galphay Arms</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90885</StopPointRef>
+      <CommonName>Galphay Village Centre</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90887</StopPointRef>
+      <CommonName>St James Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90888</StopPointRef>
+      <CommonName>Village Hall</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA90890</StopPointRef>
+      <CommonName>Post Office</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNE04667</StopPointRef>
+      <CommonName>Church</CommonName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>3200YNA96535</StopPointRef>
+      <CommonName>Bus Station Stand 4</CommonName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="1">
+      <RouteLink id="1_1">
+        <From>
+          <StopPointRef>3200YNA96535</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90885</StopPointRef>
+        </To>
+      </RouteLink>
+      <RouteLink id="1_2">
+        <From>
+          <StopPointRef>3200YNA90885</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90882</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2">
+      <RouteLink id="2_1">
+        <From>
+          <StopPointRef>3200YNA90882</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNE04667</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="3">
+      <RouteLink id="3_1">
+        <From>
+          <StopPointRef>3200YNE04667</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90890</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="4">
+      <RouteLink id="4_1">
+        <From>
+          <StopPointRef>3200YNA90890</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90887</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="5">
+      <RouteLink id="5_1">
+        <From>
+          <StopPointRef>3200YNA90887</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA90888</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="6">
+      <RouteLink id="6_1">
+        <From>
+          <StopPointRef>3200YNA90888</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>3200YNA96535</StopPointRef>
+        </To>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="1">
+      <Description>Ripon - Mickley Circle</Description>
+      <RouteSectionRef>1</RouteSectionRef>
+      <RouteSectionRef>2</RouteSectionRef>
+      <RouteSectionRef>3</RouteSectionRef>
+      <RouteSectionRef>4</RouteSectionRef>
+      <RouteSectionRef>5</RouteSectionRef>
+      <RouteSectionRef>6</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="1">
+      <JourneyPatternTimingLink id="1_1">
+        <From SequenceNumber="0">
+          <Activity>pickUp</Activity>
+          <DynamicDestinationDisplay>Grewelthorpe</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA96535</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="1">
+          <StopPointRef>3200YNA90885</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_1</RouteLinkRef>
+        <RunTime>PT0H11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="1_2">
+        <From SequenceNumber="1">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90885</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="2">
+          <StopPointRef>3200YNA90882</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>1_2</RouteLinkRef>
+        <RunTime>PT0H1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="2">
+      <JourneyPatternTimingLink id="2_1">
+        <From SequenceNumber="2">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90882</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="3">
+          <StopPointRef>3200YNE04667</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>2_1</RouteLinkRef>
+        <RunTime>PT0H6M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="3">
+      <JourneyPatternTimingLink id="3_1">
+        <From SequenceNumber="3">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNE04667</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="4">
+          <StopPointRef>3200YNA90890</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>3_1</RouteLinkRef>
+        <RunTime>PT0H4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="4">
+      <JourneyPatternTimingLink id="4_1">
+        <From SequenceNumber="4">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90890</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="5">
+          <StopPointRef>3200YNA90887</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>4_1</RouteLinkRef>
+        <RunTime>PT0H8M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="5">
+      <JourneyPatternTimingLink id="5_1">
+        <From SequenceNumber="5">
+          <Activity>pickUpAndSetDown</Activity>
+          <StopPointRef>3200YNA90887</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="6">
+          <StopPointRef>3200YNA90888</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>5_1</RouteLinkRef>
+        <RunTime>PT0H7M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="6">
+      <JourneyPatternTimingLink id="6_1">
+        <From SequenceNumber="6">
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Ripon</DynamicDestinationDisplay>
+          <StopPointRef>3200YNA90888</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To SequenceNumber="7">
+          <Activity>setDown</Activity>
+          <StopPointRef>3200YNA96535</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>6_1</RouteLinkRef>
+        <RunTime>PT0H15M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="7778472">
+      <NationalOperatorCode>DDIS</NationalOperatorCode>
+      <OperatorCode>DDA</OperatorCode>
+      <OperatorShortName>Dales and District</OperatorShortName>
+      <OperatorNameOnLicence>Procters Coaches (North Yorkshire) Ltd</OperatorNameOnLicence>
+      <TradingName>Dales and District</TradingName>
+      <LicenceNumber>PB0004318</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>138A</ServiceCode>
+      <Lines>
+        <Line id="1">
+          <LineName>138A</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2014-04-22</StartDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>7778472</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Ripon - Mickley Circle</Description>
+      <StandardService>
+        <Origin>Ripon</Origin>
+        <Destination>Mickley Circle</Destination>
+        <JourneyPattern id="1">
+          <Direction>outbound</Direction>
+          <RouteRef>1</RouteRef>
+          <JourneyPatternSectionRefs>1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>4</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>1</VehicleJourneyCode>
+      <ServiceRef>138A</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="1_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_5">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_6">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="1_7">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney>
+      <OperatorRef>7778472</OperatorRef>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2</VehicleJourneyCode>
+      <ServiceRef>138A</ServiceRef>
+      <LineRef>1</LineRef>
+      <JourneyPatternRef>1</JourneyPatternRef>
+      <DepartureTime>12:30:00</DepartureTime>
+      <VehicleJourneyTimingLink id="2_1">
+        <JourneyPatternTimingLinkRef>1_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_2">
+        <JourneyPatternTimingLinkRef>1_2</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_3">
+        <JourneyPatternTimingLinkRef>2_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_4">
+        <JourneyPatternTimingLinkRef>3_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_5">
+        <JourneyPatternTimingLinkRef>4_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_6">
+        <JourneyPatternTimingLinkRef>5_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+      <VehicleJourneyTimingLink id="2_7">
+        <JourneyPatternTimingLinkRef>6_1</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

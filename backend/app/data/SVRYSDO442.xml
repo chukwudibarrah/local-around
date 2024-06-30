@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-25T10:58:56" ModificationDateTime="2024-06-25T10:58:56" Modification="new" RevisionNumber="0" FileName="SVRYSDO442.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040222</StopPointRef>
+      <CommonName>Thorpe Lane</CommonName>
+      <Indicator>NR</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040234</StopPointRef>
+      <CommonName>Park Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040235</StopPointRef>
+      <CommonName>Brompton Road</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040902</StopPointRef>
+      <CommonName>Scawsby Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Scawsby</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040911</StopPointRef>
+      <CommonName>Ingleborough Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041102</StopPointRef>
+      <CommonName>Richmond Hill Road</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041125</StopPointRef>
+      <CommonName>Parsons Flats</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370041130</StopPointRef>
+      <CommonName>Clifton Drive</CommonName>
+      <Indicator>NR</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045116</StopPointRef>
+      <CommonName>Ridgewood School</CommonName>
+      <Indicator>AT</Indicator>
+      <LocalityName>Scawsby</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045162</StopPointRef>
+      <CommonName>Park Drive</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045163</StopPointRef>
+      <CommonName>Challenger Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045417</StopPointRef>
+      <CommonName>Spring Lane</CommonName>
+      <Indicator>AT</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045540</StopPointRef>
+      <CommonName>Brompton Road</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045969</StopPointRef>
+      <CommonName>Richmond Hill Road</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046134</StopPointRef>
+      <CommonName>Scawsby Lane</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Scawsby</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046510</StopPointRef>
+      <CommonName>Spring Crescent</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046511</StopPointRef>
+      <CommonName>Stone Cross Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Sprotbrough</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="116600">
+      <RouteLink id="116600_100">
+        <From>
+          <StopPointRef>370040911</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041102</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_200">
+        <From>
+          <StopPointRef>370041102</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041125</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_300">
+        <From>
+          <StopPointRef>370041125</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040234</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_400">
+        <From>
+          <StopPointRef>370040234</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040235</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_500">
+        <From>
+          <StopPointRef>370040235</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040222</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_600">
+        <From>
+          <StopPointRef>370040222</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046510</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_700">
+        <From>
+          <StopPointRef>370046510</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040902</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="116600_1000">
+        <From>
+          <StopPointRef>370040902</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045116</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="116601">
+      <RouteLink id="116601_100">
+        <From>
+          <StopPointRef>370045116</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046134</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_200">
+        <From>
+          <StopPointRef>370046134</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046511</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_500">
+        <From>
+          <StopPointRef>370046511</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045417</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_600">
+        <From>
+          <StopPointRef>370045417</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045540</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_700">
+        <From>
+          <StopPointRef>370045540</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045162</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_800">
+        <From>
+          <StopPointRef>370045162</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370041130</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_900">
+        <From>
+          <StopPointRef>370041130</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045969</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="116601_1000">
+        <From>
+          <StopPointRef>370045969</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045163</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="116600">
+      <PrivateCode>116600</PrivateCode>
+      <Description>Sprotbrough - Scawsby</Description>
+      <RouteSectionRef>116600</RouteSectionRef>
+    </Route>
+    <Route id="116601">
+      <PrivateCode>116601</PrivateCode>
+      <Description>Scawsby - Sprotbrough</Description>
+      <RouteSectionRef>116601</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YSDO442-3">
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040911</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370041102</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370041102</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370041125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370041125</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040234</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040234</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_500">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040235</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_600">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040222</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370046510</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370046510</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040902</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-3_116600_1000">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370040902</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Scawsby</DynamicDestinationDisplay>
+          <StopPointRef>370045116</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116600_1000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSDO442-4">
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_100">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045116</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370046134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_200">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370046134</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370046511</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_500">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370046511</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045417</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_600">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045417</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045540</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_600</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_700">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045540</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045162</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_700</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_800">
+        <From SequenceNumber="141">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045162</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="142">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370041130</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_800</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_900">
+        <From SequenceNumber="151">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370041130</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="152">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSDO442-4_116601_1000">
+        <From SequenceNumber="161">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045969</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="162">
+          <DynamicDestinationDisplay>Sprotbrough</DynamicDestinationDisplay>
+          <StopPointRef>370045163</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>116601_1000</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="WBH">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBH</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Luxury Coaches Ltd</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YSDO442</ServiceCode>
+      <Lines>
+        <Line id="WBH">
+          <LineName>442</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2023-09-18</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>WBH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Sprotbrough - Scawsby</Description>
+      <StandardService>
+        <Origin>Sprotbrough</Origin>
+        <Destination>Scawsby</Destination>
+        <JourneyPattern id="JP_YSDO442-3">
+          <DestinationDisplay>Scawsby</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSDO442-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSDO442-4">
+          <DestinationDisplay>Scawsby</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSDO442-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>116600_520568_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>116600_520568_1_0</VehicleJourneyCode>
+      <ServiceRef>YSDO442</ServiceRef>
+      <LineRef>WBH</LineRef>
+      <JourneyPatternRef>JP_YSDO442-3</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCHD</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>08:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>116601_520571_1_9</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>116601_520571_1_9</VehicleJourneyCode>
+      <ServiceRef>YSDO442</ServiceRef>
+      <LineRef>WBH</LineRef>
+      <JourneyPatternRef>JP_YSDO442-4</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCHD</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>15:05:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-27T09:35:40" ModificationDateTime="2024-06-27T09:35:40" Modification="new" RevisionNumber="0" FileName="SVRYWAH0A2_20180901.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>1</OrganisationCode>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2024-06-27</StartDate>
+          <EndDate>2024-07-26</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-09-02</StartDate>
+          <EndDate>2024-10-25</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-11-04</StartDate>
+          <EndDate>2024-11-04</EndDate>
+        </DateRange>
+      </WorkingDays>
+      <Holidays>
+        <DateRange>
+          <StartDate>2024-07-27</StartDate>
+          <EndDate>2024-09-01</EndDate>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-10-26</StartDate>
+          <EndDate>2024-11-03</EndDate>
+        </DateRange>
+      </Holidays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018479</AtcoCode>
+      <Descriptor>
+        <CommonName>Black Bull Bar Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033176</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427183</Easting>
+          <Northing>414703</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018482</AtcoCode>
+      <Descriptor>
+        <CommonName>Stocksmoor Road South Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033176</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427428</Easting>
+          <Northing>415288</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018484</AtcoCode>
+      <Descriptor>
+        <CommonName>Upper Lane Coxley View</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427590</Easting>
+          <Northing>416068</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018487</AtcoCode>
+      <Descriptor>
+        <CommonName>Upper Lane Highfield Road</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427630</Easting>
+          <Northing>416174</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018488</AtcoCode>
+      <Descriptor>
+        <CommonName>Upper Lane South Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427860</Easting>
+          <Northing>416457</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018490</AtcoCode>
+      <Descriptor>
+        <CommonName>Netherton Lane Netherton Hall Drive</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427975</Easting>
+          <Northing>416680</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018493</AtcoCode>
+      <Descriptor>
+        <CommonName>Netherton Lane Church Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>428204</Easting>
+          <Northing>417032</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-01-26T00:00:00">
+      <AtcoCode>450018494</AtcoCode>
+      <Descriptor>
+        <CommonName>Netherton Lane Bridge Road</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032914</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427996</Easting>
+          <Northing>417862</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+                <Degrees>135</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-01T00:00:00">
+      <AtcoCode>450020155</AtcoCode>
+      <Descriptor>
+        <CommonName>Horbury High Street</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032913</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>429466</Easting>
+          <Northing>418208</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+                <Degrees>315</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022271</AtcoCode>
+      <Descriptor>
+        <CommonName>New Road New Street</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032913</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>429832</Easting>
+          <Northing>418332</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022272</AtcoCode>
+      <Descriptor>
+        <CommonName>New Road Twitch Hill</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032913</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>429749</Easting>
+          <Northing>418253</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022281</AtcoCode>
+      <Descriptor>
+        <CommonName>Quarry Hill Southfield Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032913</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>429080</Easting>
+          <Northing>418081</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022282</AtcoCode>
+      <Descriptor>
+        <CommonName>Highfield Road High Street</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032913</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>429280</Easting>
+          <Northing>418222</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022290</AtcoCode>
+      <Descriptor>
+        <CommonName>Bridge Road Engine Lane</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032914</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>428623</Easting>
+          <Northing>418124</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-05T00:00:00">
+      <AtcoCode>450022291</AtcoCode>
+      <Descriptor>
+        <CommonName>Bridge Road Parklands Drive</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032914</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>428433</Easting>
+          <Northing>418060</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="1999-02-09T00:00:00">
+      <AtcoCode>450022295</AtcoCode>
+      <Descriptor>
+        <CommonName>Windybank Farm</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033256</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427526</Easting>
+          <Northing>415624</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-06-16T00:00:00">
+      <AtcoCode>450025280</AtcoCode>
+      <Descriptor>
+        <CommonName>Bridge Road Holyoake Terrace</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0032914</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>428230</Easting>
+          <Northing>418012</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2010-10-19T09:03:46">
+      <AtcoCode>450026331</AtcoCode>
+      <Descriptor>
+        <CommonName>Stocksmoor Road</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0033176</NptgLocalityRef>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>427318</Easting>
+          <Northing>414964</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+                <Degrees>225</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>450</AdministrativeAreaRef>
+    </StopPoint>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS_0">
+      <RouteLink id="RS_0_RL_0">
+        <From>
+          <StopPointRef>450022271</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022272</StopPointRef>
+        </To>
+        <Distance>381</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_1">
+      <RouteLink id="RS_1_RL_0">
+        <From>
+          <StopPointRef>450022272</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450020155</StopPointRef>
+        </To>
+        <Distance>303</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_2">
+      <RouteLink id="RS_2_RL_0">
+        <From>
+          <StopPointRef>450020155</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022282</StopPointRef>
+        </To>
+        <Distance>226</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_3">
+      <RouteLink id="RS_3_RL_0">
+        <From>
+          <StopPointRef>450022282</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022281</StopPointRef>
+        </To>
+        <Distance>250</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_4">
+      <RouteLink id="RS_4_RL_0">
+        <From>
+          <StopPointRef>450022281</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022290</StopPointRef>
+        </To>
+        <Distance>499</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_5">
+      <RouteLink id="RS_5_RL_0">
+        <From>
+          <StopPointRef>450022290</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022291</StopPointRef>
+        </To>
+        <Distance>199</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_6">
+      <RouteLink id="RS_6_RL_0">
+        <From>
+          <StopPointRef>450022291</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450025280</StopPointRef>
+        </To>
+        <Distance>212</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_7">
+      <RouteLink id="RS_7_RL_0">
+        <From>
+          <StopPointRef>450025280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018494</StopPointRef>
+        </To>
+        <Distance>352</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_8">
+      <RouteLink id="RS_8_RL_0">
+        <From>
+          <StopPointRef>450018494</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018493</StopPointRef>
+        </To>
+        <Distance>916</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_9">
+      <RouteLink id="RS_9_RL_0">
+        <From>
+          <StopPointRef>450018493</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018490</StopPointRef>
+        </To>
+        <Distance>424</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_10">
+      <RouteLink id="RS_10_RL_0">
+        <From>
+          <StopPointRef>450018490</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018488</StopPointRef>
+        </To>
+        <Distance>256</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_11">
+      <RouteLink id="RS_11_RL_0">
+        <From>
+          <StopPointRef>450018488</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018487</StopPointRef>
+        </To>
+        <Distance>377</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_12">
+      <RouteLink id="RS_12_RL_0">
+        <From>
+          <StopPointRef>450018487</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018484</StopPointRef>
+        </To>
+        <Distance>113</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_13">
+      <RouteLink id="RS_13_RL_0">
+        <From>
+          <StopPointRef>450018484</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450022295</StopPointRef>
+        </To>
+        <Distance>493</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_14">
+      <RouteLink id="RS_14_RL_0">
+        <From>
+          <StopPointRef>450022295</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018482</StopPointRef>
+        </To>
+        <Distance>355</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_15">
+      <RouteLink id="RS_15_RL_0">
+        <From>
+          <StopPointRef>450018482</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450026331</StopPointRef>
+        </To>
+        <Distance>342</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS_16">
+      <RouteLink id="RS_16_RL_0">
+        <From>
+          <StopPointRef>450026331</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450018479</StopPointRef>
+        </To>
+        <Distance>294</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT_0">
+      <PrivateCode>14943211</PrivateCode>
+      <Description>HORBURY SCH- MIDGLEY BLACK BULL Horbury School to Haigh via </Description>
+      <RouteSectionRef>RS_0</RouteSectionRef>
+      <RouteSectionRef>RS_1</RouteSectionRef>
+      <RouteSectionRef>RS_2</RouteSectionRef>
+      <RouteSectionRef>RS_3</RouteSectionRef>
+      <RouteSectionRef>RS_4</RouteSectionRef>
+      <RouteSectionRef>RS_5</RouteSectionRef>
+      <RouteSectionRef>RS_6</RouteSectionRef>
+      <RouteSectionRef>RS_7</RouteSectionRef>
+      <RouteSectionRef>RS_8</RouteSectionRef>
+      <RouteSectionRef>RS_9</RouteSectionRef>
+      <RouteSectionRef>RS_10</RouteSectionRef>
+      <RouteSectionRef>RS_11</RouteSectionRef>
+      <RouteSectionRef>RS_12</RouteSectionRef>
+      <RouteSectionRef>RS_13</RouteSectionRef>
+      <RouteSectionRef>RS_14</RouteSectionRef>
+      <RouteSectionRef>RS_15</RouteSectionRef>
+      <RouteSectionRef>RS_16</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_0">
+      <JourneyPatternTimingLink id="JPS_0_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022271</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022272</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_0_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_1">
+      <JourneyPatternTimingLink id="JPS_1_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022272</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450020155</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_1_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_2">
+      <JourneyPatternTimingLink id="JPS_2_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450020155</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022282</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_2_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_3">
+      <JourneyPatternTimingLink id="JPS_3_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022282</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022281</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_3_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_4">
+      <JourneyPatternTimingLink id="JPS_4_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022281</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022290</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_4_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_5">
+      <JourneyPatternTimingLink id="JPS_5_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022290</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022291</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_5_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_6">
+      <JourneyPatternTimingLink id="JPS_6_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022291</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450025280</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_6_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_7">
+      <JourneyPatternTimingLink id="JPS_7_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450025280</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018494</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_7_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_8">
+      <JourneyPatternTimingLink id="JPS_8_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018494</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018493</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_8_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_9">
+      <JourneyPatternTimingLink id="JPS_9_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018493</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018490</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_9_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_10">
+      <JourneyPatternTimingLink id="JPS_10_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018490</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018488</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_10_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_11">
+      <JourneyPatternTimingLink id="JPS_11_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018488</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018487</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_11_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_12">
+      <JourneyPatternTimingLink id="JPS_12_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018487</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018484</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_12_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_13">
+      <JourneyPatternTimingLink id="JPS_13_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018484</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_13_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT19M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_14">
+      <JourneyPatternTimingLink id="JPS_14_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450022295</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018482</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_14_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT15M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_15">
+      <JourneyPatternTimingLink id="JPS_15_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018482</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450026331</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_15_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT13M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_16">
+      <JourneyPatternTimingLink id="JPS_16_JPTL_0">
+        <From>
+          <Activity>pickUpAndSetDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450026331</StopPointRef>
+          <TimingStatus>otherPoint</TimingStatus>
+        </From>
+        <To>
+          <Activity>setDown</Activity>
+          <DynamicDestinationDisplay>Midgley Black Bull</DynamicDestinationDisplay>
+          <StopPointRef>450018479</StopPointRef>
+          <TimingStatus>principalTimingPoint</TimingStatus>
+        </To>
+        <RouteLinkRef>RS_16_RL_0</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT12M</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="YWD">
+      <NationalOperatorCode>WRAY</NationalOperatorCode>
+      <OperatorCode>YWD</OperatorCode>
+      <OperatorShortName>Arriva Yorkshire</OperatorShortName>
+      <OperatorNameOnLicence>Arriva Yorkshire West</OperatorNameOnLicence>
+      <TradingName>Arriva Yorkshire</TradingName>
+      <LicenceNumber>YW0000582</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YWAH0A2</ServiceCode>
+      <PrivateCode>149432</PrivateCode>
+      <Lines>
+        <Line id="SRV_HA2_14943_2_LN_0">
+          <LineName>HA2</LineName>
+          <OutboundDescription>
+            <Origin>.</Origin>
+            <Destination>Horbury School</Destination>
+          </OutboundDescription>
+          <InboundDescription>
+            <Origin>Horbury School</Origin>
+            <Destination>.</Destination>
+          </InboundDescription>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2018-09-01</StartDate>
+        <EndDate>3000-01-01</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+      </OperatingProfile>
+      <RegisteredOperatorRef>YWD</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>.</Description>
+      <StandardService>
+        <Origin>.</Origin>
+        <Destination>Horbury School</Destination>
+        <JourneyPattern id="JP_0">
+          <Direction>inbound</Direction>
+          <RouteRef>RT_0</RouteRef>
+          <JourneyPatternSectionRefs>JPS_0</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_1</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_2</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_3</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_4</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_5</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_6</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_7</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_8</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_9</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_10</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_11</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_12</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_13</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_14</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_15</JourneyPatternSectionRefs>
+          <JourneyPatternSectionRefs>JPS_16</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>14943-2-2</PrivateCode>
+      <OperatorRef>YWD</OperatorRef>
+      <Direction>inbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <LateSummerBankHolidayNotScotland />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ_0</VehicleJourneyCode>
+      <ServiceRef>YWAH0A2</ServiceRef>
+      <LineRef>SRV_HA2_14943_2_LN_0</LineRef>
+      <JourneyPatternRef>JP_0</JourneyPatternRef>
+      <Note>
+        <NoteCode>Sch</NoteCode>
+        <NoteText>Runs Schooldays only</NoteText>
+      </Note>
+      <DepartureTime>14:50:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

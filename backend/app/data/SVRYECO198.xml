@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-28T09:15:32" ModificationDateTime="2024-06-28T09:15:32" Modification="new" RevisionNumber="0" FileName="SVRYECO198.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00038</StopPointRef>
+      <CommonName>Market Weighton Yor</CommonName>
+      <Indicator>22000038</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00039</StopPointRef>
+      <CommonName>Market Weighton Mar</CommonName>
+      <Indicator>22000039</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00213</StopPointRef>
+      <CommonName>North Cave Westgate</CommonName>
+      <Indicator>22000213</Indicator>
+      <LocalityName>North Cave</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00214</StopPointRef>
+      <CommonName>North Cave Westgate</CommonName>
+      <Indicator>22000214</Indicator>
+      <LocalityName>North Cave</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00219</StopPointRef>
+      <CommonName>Market Weighton Sou</CommonName>
+      <Indicator>22000219</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00220</StopPointRef>
+      <CommonName>Market Weighton Sou</CommonName>
+      <Indicator>MISSING</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00763</StopPointRef>
+      <CommonName>North Cave Westgate</CommonName>
+      <Indicator>22000763</Indicator>
+      <LocalityName>North Cave</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00791</StopPointRef>
+      <CommonName>Hotham North Cave R</CommonName>
+      <Indicator>22000791</Indicator>
+      <LocalityName>Hotham</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00792</StopPointRef>
+      <CommonName>Hotham Main Street</CommonName>
+      <Indicator>22000792</Indicator>
+      <LocalityName>Hotham</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00794</StopPointRef>
+      <CommonName>North Newbald Churc</CommonName>
+      <Indicator>22000794</Indicator>
+      <LocalityName>North Newbald</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00805</StopPointRef>
+      <CommonName>Market Weighton San</CommonName>
+      <Indicator>22000805</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00806</StopPointRef>
+      <CommonName>Market Weighton San</CommonName>
+      <Indicator>22000806</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00807</StopPointRef>
+      <CommonName>Sancton King Street</CommonName>
+      <Indicator>22000807</Indicator>
+      <LocalityName>Sancton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA00808</StopPointRef>
+      <CommonName>North Newbald Burga</CommonName>
+      <Indicator>22000808</Indicator>
+      <LocalityName>Newbald</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA01656</StopPointRef>
+      <CommonName>Market Weighton Hig</CommonName>
+      <Indicator>22001656</Indicator>
+      <LocalityName>Market Weighton</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>2200YEA11803</StopPointRef>
+      <CommonName>South Newbald Rd</CommonName>
+      <Indicator>22011803</Indicator>
+      <LocalityName>South Newbald</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="2376">
+      <RouteLink id="2376_100">
+        <From>
+          <StopPointRef>2200YEA00213</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00792</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_200">
+        <From>
+          <StopPointRef>2200YEA00792</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11803</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_300">
+        <From>
+          <StopPointRef>2200YEA11803</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00794</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_400">
+        <From>
+          <StopPointRef>2200YEA00794</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00808</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_450">
+        <From>
+          <StopPointRef>2200YEA00808</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00807</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_500">
+        <From>
+          <StopPointRef>2200YEA00807</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00806</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_600">
+        <From>
+          <StopPointRef>2200YEA00806</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00219</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_700">
+        <From>
+          <StopPointRef>2200YEA00219</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA01656</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="2376_800">
+        <From>
+          <StopPointRef>2200YEA01656</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00038</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="2377">
+      <RouteLink id="2377_100">
+        <From>
+          <StopPointRef>2200YEA00039</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00220</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_200">
+        <From>
+          <StopPointRef>2200YEA00220</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00805</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_300">
+        <From>
+          <StopPointRef>2200YEA00805</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00807</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_400">
+        <From>
+          <StopPointRef>2200YEA00807</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00808</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_500">
+        <From>
+          <StopPointRef>2200YEA00808</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00794</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_600">
+        <From>
+          <StopPointRef>2200YEA00794</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA11803</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_700">
+        <From>
+          <StopPointRef>2200YEA11803</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00792</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_750">
+        <From>
+          <StopPointRef>2200YEA00792</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00791</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_800">
+        <From>
+          <StopPointRef>2200YEA00791</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00763</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="2377_900">
+        <From>
+          <StopPointRef>2200YEA00763</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>2200YEA00214</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="2376">
+      <PrivateCode>2376</PrivateCode>
+      <Description>North Cave - Market Weighton</Description>
+      <RouteSectionRef>2376</RouteSectionRef>
+    </Route>
+    <Route id="2377">
+      <PrivateCode>2377</PrivateCode>
+      <Description>Market Weighton - North Cave</Description>
+      <RouteSectionRef>2377</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YECO198-3">
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_100">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00213</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00792</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_200">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00792</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11803</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_300">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11803</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_400">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00808</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_450">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00808</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00807</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_450</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_500">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00807</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00806</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_600">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00806</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00219</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_700">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00219</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01656</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-3_2376_800">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA01656</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Market Weighton</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00038</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2376_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YECO198-4">
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_100">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00039</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00220</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_200">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00220</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00805</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_300">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00805</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00807</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_300</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT16M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_400">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00807</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00808</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_500">
+        <From SequenceNumber="141">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00808</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="142">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_600">
+        <From SequenceNumber="151">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00794</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="152">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11803</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_600</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_700">
+        <From SequenceNumber="161">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA11803</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="162">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00792</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_700</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_750">
+        <From SequenceNumber="171">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00792</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="172">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00791</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_750</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_800">
+        <From SequenceNumber="181">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00791</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="182">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00763</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_800</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YECO198-4_2377_900">
+        <From SequenceNumber="191">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00763</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="192">
+          <DynamicDestinationDisplay>North Cave</DynamicDestinationDisplay>
+          <StopPointRef>2200YEA00214</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>2377_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="GGF">
+      <NationalOperatorCode>GOGF</NationalOperatorCode>
+      <OperatorCode>GGF</OperatorCode>
+      <OperatorShortName>Goole Go Far</OperatorShortName>
+      <OperatorNameOnLicence>Goole &amp; District Community Transport Group</OperatorNameOnLicence>
+      <TradingName>Goole Go Far</TradingName>
+      <LicenceNumber>PB0000000</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YECO198</ServiceCode>
+      <Lines>
+        <Line id="GGF">
+          <LineName>198</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-04-02</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>GGF</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>North Cave - Market Weighton</Description>
+      <StandardService>
+        <Origin>North Cave</Origin>
+        <Destination>Market Weighton</Destination>
+        <JourneyPattern id="JP_YECO198-3">
+          <DestinationDisplay>Market Weighton</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YECO198-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YECO198-4">
+          <DestinationDisplay>Market Weighton</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YECO198-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>2376_17056_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2376_17056_1_0</VehicleJourneyCode>
+      <ServiceRef>YECO198</ServiceRef>
+      <LineRef>GGF</LineRef>
+      <JourneyPatternRef>JP_YECO198-3</JourneyPatternRef>
+      <DepartureTime>09:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>2377_17059_1_10</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-27</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>2377_17059_1_10</VehicleJourneyCode>
+      <ServiceRef>YECO198</ServiceRef>
+      <LineRef>GGF</LineRef>
+      <JourneyPatternRef>JP_YECO198-4</JourneyPatternRef>
+      <DepartureTime>12:00:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

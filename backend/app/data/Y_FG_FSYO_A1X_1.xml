@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-05-20T06:54:24" ModificationDateTime="2024-05-20T06:54:24" Modification="new" RevisionNumber="1" FileName="FSYO_A1X_1.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <ServicedOrganisations>
+    <ServicedOrganisation>
+      <OrganisationCode>ORG1</OrganisationCode>
+      <Name>Schooldays</Name>
+      <WorkingDays>
+        <DateRange>
+          <StartDate>2023-01-03</StartDate>
+          <EndDate>2023-02-11</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-02-20</StartDate>
+          <EndDate>2023-03-31</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-04-17</StartDate>
+          <EndDate>2023-05-26</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-09-04</StartDate>
+          <EndDate>2023-10-20</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2023-10-30</StartDate>
+          <EndDate>2023-12-22</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-01-08</StartDate>
+          <EndDate>2024-02-09</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-02-19</StartDate>
+          <EndDate>2024-03-28</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-04-15</StartDate>
+          <EndDate>2024-05-24</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+        <DateRange>
+          <StartDate>2024-06-03</StartDate>
+          <EndDate>2024-07-23</EndDate>
+          <Description>Schooldays</Description>
+        </DateRange>
+      </WorkingDays>
+    </ServicedOrganisation>
+  </ServicedOrganisations>
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370022831</StopPointRef>
+      <CommonName>Flat Street/FS1</CommonName>
+      <LocalityName>Sheffield Centre</LocalityName>
+      <LocalityQualifier>Sheffield</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046730</StopPointRef>
+      <CommonName>Iport Avenue/Great Yorkshire Way</CommonName>
+      <LocalityName>Rossington</LocalityName>
+      <LocalityQualifier>Rossington</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046765</StopPointRef>
+      <CommonName>Ontario Drive/Iport Avenue</CommonName>
+      <LocalityName>Loversall</LocalityName>
+      <LocalityQualifier>Loversall</LocalityQualifier>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS78">
+      <RouteLink id="RL1945">
+        <From>
+          <StopPointRef>370046765</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046730</StopPointRef>
+        </To>
+        <Distance>1732</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL1946">
+        <From>
+          <StopPointRef>370046730</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370022831</StopPointRef>
+        </To>
+        <Distance>31294</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="RS77">
+      <RouteLink id="RL1943">
+        <From>
+          <StopPointRef>370022831</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046730</StopPointRef>
+        </To>
+        <Distance>33066</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL1944">
+        <From>
+          <StopPointRef>370046730</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046765</StopPointRef>
+        </To>
+        <Distance>2683</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT78">
+      <PrivateCode>FYDOA1X-78</PrivateCode>
+      <Description>iPort, Toronto Way, Amazon LBA4 - Flat Street (FS1)</Description>
+      <RouteSectionRef>RS78</RouteSectionRef>
+    </Route>
+    <Route id="RT77">
+      <PrivateCode>FYDOA1X-77</PrivateCode>
+      <Description>Flat Street (FS1) - iPort, Toronto Way, Amazon LBA4</Description>
+      <RouteSectionRef>RS77</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS815">
+      <JourneyPatternTimingLink id="JPTL38590">
+        <From>
+          <StopPointRef>370046765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370046730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1945</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38591">
+        <From>
+          <StopPointRef>370046730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370022831</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1946</RouteLinkRef>
+        <RunTime>PT36M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS817">
+      <JourneyPatternTimingLink id="JPTL38602">
+        <From>
+          <StopPointRef>370022831</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370046730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1943</RouteLinkRef>
+        <RunTime>PT36M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL38603">
+        <From>
+          <StopPointRef>370046730</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>370046765</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL1944</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FSY">
+      <NationalOperatorCode>FSYO</NationalOperatorCode>
+      <OperatorCode>FSYO</OperatorCode>
+      <OperatorShortName>First South Yorkshire</OperatorShortName>
+      <OperatorNameOnLicence>First South Yorkshire Limited</OperatorNameOnLicence>
+      <TradingName>First</TradingName>
+      <LicenceNumber>PB0002307</LicenceNumber>
+      <LicenceClassification>standardInternational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>Y_FG_FSYO_A1X_1</ServiceCode>
+      <PrivateCode>FYDOA1X_A1X</PrivateCode>
+      <Lines>
+        <Line id="SL42">
+          <LineName>A1X</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-03</StartDate>
+        <EndDate>2024-07-28</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>FSY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <PublicUse>false</PublicUse>
+      <Description>Amazon Iport - Sheffield</Description>
+      <StandardService>
+        <Origin>Amazon Iport</Origin>
+        <Destination>Sheffield</Destination>
+        <JourneyPattern id="JP966">
+          <DestinationDisplay>Sheffield</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <RouteRef>RT78</RouteRef>
+          <JourneyPatternSectionRefs>JPS815</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP967">
+          <DestinationDisplay>iPort Toronto Way</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT77</RouteRef>
+          <JourneyPatternSectionRefs>JPS817</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="8050">
+      <PrivateCode>FYDOA1XSU:I:12:1:eHZyeW03enFr_VJ1</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Sunday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfOperation>
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+          </DaysOfOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP967</JourneyPatternRef>
+      <DepartureTime>17:35:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL1">
+        <JourneyPatternTimingLinkRef>JPTL38602</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8051">
+      <PrivateCode>FYDOA1XM:O:78:1:xmuj0ahrc_VJ2</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP966</JourneyPatternRef>
+      <DepartureTime>05:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL2">
+        <JourneyPatternTimingLinkRef>JPTL38590</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8052">
+      <PrivateCode>FYDOA1XM:I:9:20:xmuj0ahrc_VJ3</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <ServicedOrganisationDayType>
+          <DaysOfOperation>
+            <WorkingDays>
+              <ServicedOrganisationRef>ORG1</ServicedOrganisationRef>
+            </WorkingDays>
+          </DaysOfOperation>
+        </ServicedOrganisationDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP967</JourneyPatternRef>
+      <DepartureTime>17:26:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL3">
+        <JourneyPatternTimingLinkRef>JPTL38602</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT9M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8053">
+      <PrivateCode>FYDOA1XT:O:78:1:obywz17nr_VJ4</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP966</JourneyPatternRef>
+      <DepartureTime>05:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL4">
+        <JourneyPatternTimingLinkRef>JPTL38590</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8054">
+      <PrivateCode>FYDOA1XT:I:9:20:obywz17nr_VJ5</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Tuesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP967</JourneyPatternRef>
+      <DepartureTime>17:26:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL5">
+        <JourneyPatternTimingLinkRef>JPTL38602</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT9M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8055">
+      <PrivateCode>FYDOA1XW:O:79:1:515gru0te_VJ6</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP966</JourneyPatternRef>
+      <DepartureTime>05:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL6">
+        <JourneyPatternTimingLinkRef>JPTL38590</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8056">
+      <PrivateCode>FYDOA1XW:I:9:20:515gru0te_VJ7</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Wednesday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP967</JourneyPatternRef>
+      <DepartureTime>17:26:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL7">
+        <JourneyPatternTimingLinkRef>JPTL38602</JourneyPatternTimingLinkRef>
+        <From>
+          <WaitTime>PT9M0S</WaitTime>
+        </From>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="8057">
+      <PrivateCode>FYDOA1XH:O:79:1:s94j0lb82_VJ8</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <OtherPublicHoliday>
+              <Description>May Day</Description>
+              <Date>2020-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Spring Bank Holiday</Description>
+              <Date>2020-05-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>August Bank Holiday</Description>
+              <Date>2020-08-31</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Good Friday</Description>
+              <Date>2020-04-10</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>New Year's Day</Description>
+              <Date>2024-01-01</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Boxing Day</Description>
+              <Date>2023-12-26</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Christmas Day</Description>
+              <Date>2023-12-25</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>CoranationBankHoliday</Description>
+              <Date>2023-05-08</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Platinum Jubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>PlatinumJubilee</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>JubileeHoliday</Description>
+              <Date>2022-06-03</Date>
+            </OtherPublicHoliday>
+            <OtherPublicHoliday>
+              <Description>Easter Monday</Description>
+              <Date>2020-04-13</Date>
+            </OtherPublicHoliday>
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FSYO_A1X_1</ServiceRef>
+      <LineRef>SL42</LineRef>
+      <JourneyPatternRef>JP966</JourneyPatternRef>
+      <DepartureTime>05:40:00</DepartureTime>
+      <VehicleJourneyTimingLink id="VJTL8">
+        <JourneyPatternTimingLinkRef>JPTL38590</JourneyPatternTimingLinkRef>
+      </VehicleJourneyTimingLink>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

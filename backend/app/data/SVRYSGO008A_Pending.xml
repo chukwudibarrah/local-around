@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-25T10:59:54" ModificationDateTime="2024-06-25T10:59:54" Modification="new" RevisionNumber="0" FileName="SVRYSGO008A_Pending.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021496</StopPointRef>
+      <CommonName>Moss Way</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Waterthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021497</StopPointRef>
+      <CommonName>Cleeve Hill Gardens</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Waterthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021498</StopPointRef>
+      <CommonName>Cleeve Hill Gardens</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Waterthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021587</StopPointRef>
+      <CommonName>Birley Moor Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021637</StopPointRef>
+      <CommonName>Crystal Peaks Bus S</CommonName>
+      <Indicator>CP6</Indicator>
+      <LocalityName>Crystal Peaks</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370021729</StopPointRef>
+      <CommonName>Moorthorpe Way</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370023640</StopPointRef>
+      <CommonName>Thornbridge Rise</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370023890</StopPointRef>
+      <CommonName>Birley Moor Avenue</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027177</StopPointRef>
+      <CommonName>Tram Stop</CommonName>
+      <Indicator>AT</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027178</StopPointRef>
+      <CommonName>Newstead Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027179</StopPointRef>
+      <CommonName>Birley Moor Drive</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Birley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027374</StopPointRef>
+      <CommonName>Broadlands Rise</CommonName>
+      <Indicator>NR</Indicator>
+      <LocalityName>Owlthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370027375</StopPointRef>
+      <CommonName>Cranford Drive</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Owlthorpe</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370070008</StopPointRef>
+      <CommonName>Crystal Peaks Bus S</CommonName>
+      <Indicator>MISSING</Indicator>
+      <LocalityName>Crystal Peaks</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="118969">
+      <RouteLink id="118969_200">
+        <From>
+          <StopPointRef>370027177</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027179</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_220">
+        <From>
+          <StopPointRef>370027179</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370023890</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_240">
+        <From>
+          <StopPointRef>370023890</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370023640</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_250">
+        <From>
+          <StopPointRef>370023640</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370021587</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_260">
+        <From>
+          <StopPointRef>370021587</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027178</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_300">
+        <From>
+          <StopPointRef>370027178</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027375</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_700">
+        <From>
+          <StopPointRef>370027375</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370021497</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="118969_1100">
+        <From>
+          <StopPointRef>370021497</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370070008</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+    <RouteSection id="118968">
+      <RouteLink id="118968_200">
+        <From>
+          <StopPointRef>370021637</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370021498</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="118968_400">
+        <From>
+          <StopPointRef>370021498</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370021496</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="118968_500">
+        <From>
+          <StopPointRef>370021496</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027374</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="118968_900">
+        <From>
+          <StopPointRef>370027374</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370021729</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+      <RouteLink id="118968_1100">
+        <From>
+          <StopPointRef>370021729</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370027177</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>inbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="118969">
+      <PrivateCode>118969</PrivateCode>
+      <Description>Birley - Crystal Peaks</Description>
+      <RouteSectionRef>118969</RouteSectionRef>
+    </Route>
+    <Route id="118968">
+      <PrivateCode>118968</PrivateCode>
+      <Description>Crystal Peaks - Birley</Description>
+      <RouteSectionRef>118968</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YSGO008A-3">
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_200">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027177</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027179</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_220">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027179</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023890</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_220</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_240">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023890</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023640</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_240</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_250">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023640</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021587</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_250</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_260">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021587</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027178</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_260</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_300">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027178</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021497</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-3_118969_1100">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021497</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370070008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSGO008A-4">
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_200">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027177</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027179</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_220">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027179</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023890</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_220</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_240">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023890</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023640</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_240</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_250">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370023640</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021587</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_250</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_260">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021587</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027178</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_260</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_300">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027178</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_700">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370027375</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021497</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-4_118969_1100">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370021497</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Crystal Peaks</DynamicDestinationDisplay>
+          <StopPointRef>370070008</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118969_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSGO008A-5">
+      <JourneyPatternTimingLink id="JPS_YSGO008A-5_118968_200">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021637</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-5_118968_400">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-5_118968_500">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-5_118968_900">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-5_118968_1100">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027177</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_1100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSGO008A-6">
+      <JourneyPatternTimingLink id="JPS_YSGO008A-6_118968_200">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021637</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-6_118968_400">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-6_118968_500">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-6_118968_900">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-6_118968_1100">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027177</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_1100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS_YSGO008A-7">
+      <JourneyPatternTimingLink id="JPS_YSGO008A-7_118968_200">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021637</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_200</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-7_118968_400">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021498</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_400</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-7_118968_500">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021496</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_500</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-7_118968_900">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027374</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_900</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSGO008A-7_118968_1100">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370021729</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Birley</DynamicDestinationDisplay>
+          <StopPointRef>370027177</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>118968_1100</RouteLinkRef>
+        <Direction>inbound</Direction>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="TML">
+      <NationalOperatorCode>TMTL</NationalOperatorCode>
+      <OperatorCode>TML</OperatorCode>
+      <OperatorShortName>T M Travel</OperatorShortName>
+      <OperatorNameOnLicence>T M Travel Ltd</OperatorNameOnLicence>
+      <TradingName>T M Travel</TradingName>
+      <LicenceNumber>PB1088444</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YSGO008A</ServiceCode>
+      <Lines>
+        <Line id="TML">
+          <LineName>8a</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-28</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>TML</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Birley - Crystal Peaks</Description>
+      <StandardService>
+        <Origin>Birley</Origin>
+        <Destination>Crystal Peaks</Destination>
+        <JourneyPattern id="JP_YSGO008A-3">
+          <DestinationDisplay>Crystal Peaks</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSGO008A-3</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSGO008A-4">
+          <DestinationDisplay>Crystal Peaks</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSGO008A-4</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSGO008A-5">
+          <DestinationDisplay>Crystal Peaks</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSGO008A-5</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSGO008A-6">
+          <DestinationDisplay>Crystal Peaks</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSGO008A-6</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP_YSGO008A-7">
+          <DestinationDisplay>Crystal Peaks</DestinationDisplay>
+          <Direction>inbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSGO008A-7</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_1_0</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>09:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_2_9</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_2_9</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>10:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_3_18</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_3_18</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>11:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_4_27</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_4_27</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>12:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_5_36</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_5_36</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>13:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_6_45</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_6_45</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>14:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_7_54</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_7_54</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>15:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539190_8_63</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539190_8_63</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_1_72</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_1_72</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>09:40:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_2_81</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_2_81</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>10:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_3_90</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_3_90</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>11:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_4_99</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_4_99</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>12:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_5_108</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_5_108</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>13:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_6_117</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_6_117</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>14:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_7_126</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_7_126</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>15:42:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_8_135</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_8_135</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-4</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118969_539191_9_144</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118969_539191_9_144</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-3</JourneyPatternRef>
+      <DepartureTime>18:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_1_153</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_1_153</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>09:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_2_159</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_2_159</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>10:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_3_165</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_3_165</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>11:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_4_171</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_4_171</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>12:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_5_177</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_5_177</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>13:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_6_183</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_6_183</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>14:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_7_189</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_7_189</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>15:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539187_8_195</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Saturday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539187_8_195</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-5</JourneyPatternRef>
+      <DepartureTime>16:45:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_1_201</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_1_201</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-6</JourneyPatternRef>
+      <DepartureTime>09:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_2_207</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_2_207</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-6</JourneyPatternRef>
+      <DepartureTime>10:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_3_213</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_3_213</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-6</JourneyPatternRef>
+      <DepartureTime>11:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_4_219</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_4_219</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-6</JourneyPatternRef>
+      <DepartureTime>12:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_5_225</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_5_225</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-6</JourneyPatternRef>
+      <DepartureTime>13:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_6_231</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_6_231</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-7</JourneyPatternRef>
+      <DepartureTime>14:20:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_7_237</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_7_237</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-7</JourneyPatternRef>
+      <DepartureTime>15:25:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_8_243</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_8_243</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-7</JourneyPatternRef>
+      <DepartureTime>16:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney>
+      <PrivateCode>118968_539188_9_249</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>118968_539188_9_249</VehicleJourneyCode>
+      <ServiceRef>YSGO008A</ServiceRef>
+      <LineRef>TML</LineRef>
+      <JourneyPatternRef>JP_YSGO008A-7</JourneyPatternRef>
+      <DepartureTime>17:45:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

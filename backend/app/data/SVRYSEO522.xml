@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-06-25T10:58:58" ModificationDateTime="2024-06-25T10:58:58" Modification="new" RevisionNumber="0" FileName="SVRYSEO522.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040273</StopPointRef>
+      <CommonName>Doncaster Road</CommonName>
+      <Indicator>NR</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040275</StopPointRef>
+      <CommonName>Station Road</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040276</StopPointRef>
+      <CommonName>Highfield Road</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040277</StopPointRef>
+      <CommonName>Martin Lane</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040280</StopPointRef>
+      <CommonName>Kings Wood</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040282</StopPointRef>
+      <CommonName>RSPCA</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040283</StopPointRef>
+      <CommonName>Rossington Hall</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040284</StopPointRef>
+      <CommonName>Bawtry Forest</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040286</StopPointRef>
+      <CommonName>Yorkshire Caravans</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040302</StopPointRef>
+      <CommonName>High Common Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Mount Pleasant</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040306</StopPointRef>
+      <CommonName>Hurst Lane</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Mount Pleasant</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040322</StopPointRef>
+      <CommonName>Poplar Way</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Auckley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370040325</StopPointRef>
+      <CommonName>William Bradford Cl</CommonName>
+      <Indicator>OPP</Indicator>
+      <LocalityName>Austerfield</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045526</StopPointRef>
+      <CommonName>North Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Bawtry</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045563</StopPointRef>
+      <CommonName>Mount Pleasant Hote</CommonName>
+      <Indicator>AT</Indicator>
+      <LocalityName>Mount Pleasant</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370045769</StopPointRef>
+      <CommonName>Pilgrim Rise</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Austerfield</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046400</StopPointRef>
+      <CommonName>Larch Avenue</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Auckley</LocalityName>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>370046567</StopPointRef>
+      <CommonName>Great North Road</CommonName>
+      <Indicator>ADJ</Indicator>
+      <LocalityName>Mount Pleasant</LocalityName>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="114475">
+      <RouteLink id="114475_200">
+        <From>
+          <StopPointRef>370040322</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046400</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_400">
+        <From>
+          <StopPointRef>370046400</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370046567</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_500">
+        <From>
+          <StopPointRef>370046567</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040306</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_600">
+        <From>
+          <StopPointRef>370040306</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045563</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_700">
+        <From>
+          <StopPointRef>370045563</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040302</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_800">
+        <From>
+          <StopPointRef>370040302</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040283</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_900">
+        <From>
+          <StopPointRef>370040283</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040282</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1000">
+        <From>
+          <StopPointRef>370040282</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040286</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1100">
+        <From>
+          <StopPointRef>370040286</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040284</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1200">
+        <From>
+          <StopPointRef>370040284</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040280</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1300">
+        <From>
+          <StopPointRef>370040280</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045526</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1400">
+        <From>
+          <StopPointRef>370045526</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040277</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1500">
+        <From>
+          <StopPointRef>370040277</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040273</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1600">
+        <From>
+          <StopPointRef>370040273</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040275</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1700">
+        <From>
+          <StopPointRef>370040275</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040276</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1800">
+        <From>
+          <StopPointRef>370040276</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370040325</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="114475_1900">
+        <From>
+          <StopPointRef>370040325</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>370045769</StopPointRef>
+        </To>
+        <Distance>0</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="114475">
+      <PrivateCode>114475</PrivateCode>
+      <Description>Auckley - Austerfield</Description>
+      <RouteSectionRef>114475</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS_YSEO522-2">
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_200">
+        <From SequenceNumber="01">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040322</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="02">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370046400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_400">
+        <From SequenceNumber="11">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370046400</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="12">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370046567</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_500">
+        <From SequenceNumber="21">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370046567</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="22">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040306</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_600">
+        <From SequenceNumber="31">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040306</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="32">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370045563</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_700">
+        <From SequenceNumber="41">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370045563</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="42">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040302</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_800">
+        <From SequenceNumber="51">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040302</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="52">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040283</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_900">
+        <From SequenceNumber="61">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040283</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To SequenceNumber="62">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040282</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_900</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1000">
+        <From SequenceNumber="71">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040282</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="72">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040286</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1000</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1100">
+        <From SequenceNumber="81">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040286</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="82">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040284</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1100</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1200">
+        <From SequenceNumber="91">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040284</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="92">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1200</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1300">
+        <From SequenceNumber="101">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040280</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="102">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370045526</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1300</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1400">
+        <From SequenceNumber="111">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370045526</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="112">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040277</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1400</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1500">
+        <From SequenceNumber="121">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040277</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="122">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040273</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1500</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT0M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1600">
+        <From SequenceNumber="131">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040273</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="132">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040275</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1600</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1700">
+        <From SequenceNumber="141">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040275</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="142">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040276</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1700</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1800">
+        <From SequenceNumber="151">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040276</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="152">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040325</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1800</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPS_YSEO522-2_114475_1900">
+        <From SequenceNumber="161">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370040325</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To SequenceNumber="162">
+          <DynamicDestinationDisplay>Austerfield</DynamicDestinationDisplay>
+          <StopPointRef>370045769</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>114475_1900</RouteLinkRef>
+        <Direction>outbound</Direction>
+        <RunTime>PT1M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="WBH">
+      <NationalOperatorCode>WBHV</NationalOperatorCode>
+      <OperatorCode>WBH</OperatorCode>
+      <OperatorShortName>Wilfreda Beehive</OperatorShortName>
+      <OperatorNameOnLicence>Wilfreda Luxury Coaches Ltd</OperatorNameOnLicence>
+      <TradingName>Wilfreda Beehive</TradingName>
+      <LicenceNumber>PB0000595</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>YSEO522</ServiceCode>
+      <Lines>
+        <Line id="WBH">
+          <LineName>522</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2022-09-01</StartDate>
+        <EndDate>2099-01-01</EndDate>
+      </OperatingPeriod>
+      <RegisteredOperatorRef>WBH</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <Mode>bus</Mode>
+      <PublicUse>true</PublicUse>
+      <Description>Auckley - Austerfield</Description>
+      <StandardService>
+        <Origin>Auckley</Origin>
+        <Destination>Austerfield</Destination>
+        <JourneyPattern id="JP_YSEO522-2">
+          <DestinationDisplay>Austerfield</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <JourneyPatternSectionRefs>JPS_YSEO522-2</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney>
+      <PrivateCode>114475_497922_1_0</PrivateCode>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <SpecialDaysOperation>
+          <DaysOfNonOperation>
+            <DateRange>
+              <StartDate>2024-09-24</StartDate>
+              <EndDate>2099-01-01</EndDate>
+              <Note>Data Expires Three Months From Export Date</Note>
+            </DateRange>
+          </DaysOfNonOperation>
+        </SpecialDaysOperation>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <AllBankHolidays />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>114475_497922_1_0</VehicleJourneyCode>
+      <ServiceRef>YSEO522</ServiceRef>
+      <LineRef>WBH</LineRef>
+      <JourneyPatternRef>JP_YSEO522-2</JourneyPatternRef>
+      <Note>
+        <NoteCode>SCHD</NoteCode>
+        <NoteText>School Days Only</NoteText>
+      </Note>
+      <DepartureTime>14:53:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>

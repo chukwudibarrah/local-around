@@ -1,0 +1,4702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransXChange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2024-05-23T13:39:45" ModificationDateTime="2024-05-23T13:39:45" Modification="new" RevisionNumber="1" FileName="FLDS_PR1_1.xml" SchemaVersion="2.5" RegistrationDocument="true" xsi:schemaLocation="http://www.transxchange.org.uk/ http://www.transxchange.org.uk/schema/2.5/TransXChange_general.xsd" xmlns="http://www.transxchange.org.uk/">
+  <StopPoints>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450010689</StopPointRef>
+      <CommonName>Trinity P</CommonName>
+      <LocalityName>Leeds City Centre</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450013208</StopPointRef>
+      <CommonName>Sweet Street</CommonName>
+      <LocalityName>Holbeck</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450013211</StopPointRef>
+      <CommonName>Southbank E</CommonName>
+      <LocalityName>Leeds City Centre</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450025848</StopPointRef>
+      <CommonName>Wellington N</CommonName>
+      <LocalityName>Leeds City Centre</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450029231</StopPointRef>
+      <CommonName>Elland Road Park and Ride</CommonName>
+      <LocalityName>Beeston</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+    <AnnotatedStopPointRef>
+      <StopPointRef>450032210</StopPointRef>
+      <CommonName>Lowfields Road</CommonName>
+      <LocalityName>Beeston</LocalityName>
+      <LocalityQualifier>Leeds</LocalityQualifier>
+    </AnnotatedStopPointRef>
+  </StopPoints>
+  <RouteSections>
+    <RouteSection id="RS151">
+      <RouteLink id="RL5846">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+        </To>
+        <Distance>2945</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL5847">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+        </To>
+        <Distance>463</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL5848">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+        </To>
+        <Distance>821</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL5849">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+        </To>
+        <Distance>1110</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL5850">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+        </To>
+        <Distance>2807</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+      <RouteLink id="RL5851">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+        </To>
+        <Distance>430</Distance>
+        <Direction>outbound</Direction>
+      </RouteLink>
+    </RouteSection>
+  </RouteSections>
+  <Routes>
+    <Route id="RT151">
+      <PrivateCode>FYLPR01-151</PrivateCode>
+      <Description>Elland Road P&amp;R site - Elland Road P&amp;R site</Description>
+      <RouteSectionRef>RS151</RouteSectionRef>
+    </Route>
+  </Routes>
+  <JourneyPatternSections>
+    <JourneyPatternSection id="JPS1295">
+      <JourneyPatternTimingLink id="JPTL55912">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55913">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55914">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55915">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55916">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55917">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1296">
+      <JourneyPatternTimingLink id="JPTL55918">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55919">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55920">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55921">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55922">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55923">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1297">
+      <JourneyPatternTimingLink id="JPTL55924">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55925">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55926">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55927">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55928">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT12M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55929">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1298">
+      <JourneyPatternTimingLink id="JPTL55930">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55931">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55932">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55933">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55934">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55935">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1299">
+      <JourneyPatternTimingLink id="JPTL55936">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55937">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55938">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55939">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55940">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT10M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55941">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1300">
+      <JourneyPatternTimingLink id="JPTL55942">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55943">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55944">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55945">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55946">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55947">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1301">
+      <JourneyPatternTimingLink id="JPTL55948">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55949">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55950">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55951">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55952">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55953">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1302">
+      <JourneyPatternTimingLink id="JPTL55954">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55955">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55956">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55957">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT9M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55958">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55959">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1303">
+      <JourneyPatternTimingLink id="JPTL55960">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55961">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55962">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT5M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55963">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT8M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55964">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55965">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+    <JourneyPatternSection id="JPS1304">
+      <JourneyPatternTimingLink id="JPTL55966">
+        <From>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5846</RouteLinkRef>
+        <RunTime>PT6M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55967">
+        <From>
+          <StopPointRef>450013208</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5847</RouteLinkRef>
+        <RunTime>PT2M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55968">
+        <From>
+          <StopPointRef>450013211</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5848</RouteLinkRef>
+        <RunTime>PT4M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55969">
+        <From>
+          <StopPointRef>450010689</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5849</RouteLinkRef>
+        <RunTime>PT7M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55970">
+        <From>
+          <StopPointRef>450025848</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5850</RouteLinkRef>
+        <RunTime>PT11M0S</RunTime>
+      </JourneyPatternTimingLink>
+      <JourneyPatternTimingLink id="JPTL55971">
+        <From>
+          <StopPointRef>450032210</StopPointRef>
+          <TimingStatus>OTH</TimingStatus>
+        </From>
+        <To>
+          <StopPointRef>450029231</StopPointRef>
+          <TimingStatus>PTP</TimingStatus>
+        </To>
+        <RouteLinkRef>RL5851</RouteLinkRef>
+        <RunTime>PT3M0S</RunTime>
+      </JourneyPatternTimingLink>
+    </JourneyPatternSection>
+  </JourneyPatternSections>
+  <Operators>
+    <Operator id="FY">
+      <NationalOperatorCode>FLDS</NationalOperatorCode>
+      <OperatorCode>FLDS</OperatorCode>
+      <OperatorShortName>First Leeds</OperatorShortName>
+      <OperatorNameOnLicence>First West Yorkshire LTD</OperatorNameOnLicence>
+      <TradingName>First West Yorkshire LTD</TradingName>
+      <LicenceNumber>PB0000815</LicenceNumber>
+      <LicenceClassification>standardNational</LicenceClassification>
+    </Operator>
+  </Operators>
+  <Services>
+    <Service>
+      <ServiceCode>Y_FG_FLDS_PR1_1</ServiceCode>
+      <PrivateCode>FYLPR01</PrivateCode>
+      <Lines>
+        <Line id="SL33">
+          <LineName>PR1</LineName>
+        </Line>
+      </Lines>
+      <OperatingPeriod>
+        <StartDate>2024-06-02</StartDate>
+        <EndDate>2024-07-26</EndDate>
+      </OperatingPeriod>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <MondayToFriday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <RegisteredOperatorRef>FY</RegisteredOperatorRef>
+      <StopRequirements>
+        <NoNewStopsRequired />
+      </StopRequirements>
+      <PublicUse>true</PublicUse>
+      <Description>Elland Road Park &amp; Ride - Leeds Circular</Description>
+      <StandardService>
+        <Origin>Elland Road Park &amp; Ride</Origin>
+        <Destination>Leeds Circular</Destination>
+        <JourneyPattern id="JP2582">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1295</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2583">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1296</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2584">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1297</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2585">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1298</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2586">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1299</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2587">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1300</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2588">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1301</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2589">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1302</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2590">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1303</JourneyPatternSectionRefs>
+        </JourneyPattern>
+        <JourneyPattern id="JP2591">
+          <DestinationDisplay>Elland Road P&amp;R</DestinationDisplay>
+          <Direction>outbound</Direction>
+          <RouteRef>RT151</RouteRef>
+          <JourneyPatternSectionRefs>JPS1304</JourneyPatternSectionRefs>
+        </JourneyPattern>
+      </StandardService>
+    </Service>
+  </Services>
+  <VehicleJourneys>
+    <VehicleJourney SequenceNumber="5421">
+      <PrivateCode>FYLPR01MTWH:I:3:1:q218v12gi_VJ1</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ1</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5422">
+      <PrivateCode>FYLPR01MTWH:I:4:1:q218v12gi_VJ2</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ2</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5423">
+      <PrivateCode>FYLPR01MTWH:I:8:1:q218v12gi_VJ3</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ3</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5424">
+      <PrivateCode>FYLPR01MTWH:I:5:1:q218v12gi_VJ4</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ4</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5425">
+      <PrivateCode>FYLPR01MTWH:I:3:2:q218v12gi_VJ5</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ5</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:41:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5426">
+      <PrivateCode>FYLPR01MTWH:I:4:2:q218v12gi_VJ6</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ6</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:01:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5427">
+      <PrivateCode>FYLPR01MTWH:I:8:2:q218v12gi_VJ7</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ7</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5428">
+      <PrivateCode>FYLPR01MTWH:I:3:3:q218v12gi_VJ8</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ8</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5429">
+      <PrivateCode>FYLPR01MTWH:I:5:2:q218v12gi_VJ9</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ9</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5430">
+      <PrivateCode>FYLPR01MTWH:I:4:3:q218v12gi_VJ10</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ10</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5431">
+      <PrivateCode>FYLPR01MTWH:I:8:3:q218v12gi_VJ11</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ11</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5432">
+      <PrivateCode>FYLPR01MTWH:I:3:4:q218v12gi_VJ12</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ12</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5433">
+      <PrivateCode>FYLPR01MTWH:I:5:3:q218v12gi_VJ13</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ13</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5434">
+      <PrivateCode>FYLPR01MTWH:I:8:4:q218v12gi_VJ14</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ14</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5435">
+      <PrivateCode>FYLPR01MTWH:I:3:5:q218v12gi_VJ15</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ15</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5436">
+      <PrivateCode>FYLPR01MTWH:I:5:4:q218v12gi_VJ16</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ16</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5437">
+      <PrivateCode>FYLPR01MTWH:I:8:5:q218v12gi_VJ17</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ17</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5438">
+      <PrivateCode>FYLPR01MTWH:I:3:6:q218v12gi_VJ18</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ18</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5439">
+      <PrivateCode>FYLPR01MTWH:I:5:5:q218v12gi_VJ19</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ19</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5440">
+      <PrivateCode>FYLPR01MTWH:I:8:6:q218v12gi_VJ20</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ20</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5441">
+      <PrivateCode>FYLPR01MTWH:I:3:7:q218v12gi_VJ21</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ21</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5442">
+      <PrivateCode>FYLPR01MTWH:I:5:6:q218v12gi_VJ22</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ22</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5443">
+      <PrivateCode>FYLPR01MTWH:I:8:7:q218v12gi_VJ23</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ23</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5444">
+      <PrivateCode>FYLPR01MTWH:I:3:8:q218v12gi_VJ24</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ24</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5445">
+      <PrivateCode>FYLPR01MTWH:I:5:7:q218v12gi_VJ25</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ25</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5446">
+      <PrivateCode>FYLPR01MTWH:I:8:8:q218v12gi_VJ26</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ26</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5447">
+      <PrivateCode>FYLPR01MTWH:I:3:9:q218v12gi_VJ27</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ27</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5448">
+      <PrivateCode>FYLPR01MTWH:I:5:8:q218v12gi_VJ28</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ28</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5449">
+      <PrivateCode>FYLPR01MTWH:I:8:9:q218v12gi_VJ29</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ29</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5450">
+      <PrivateCode>FYLPR01MTWH:I:3:10:q218v12gi_VJ30</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ30</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5451">
+      <PrivateCode>FYLPR01MTWH:I:5:9:q218v12gi_VJ31</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ31</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5452">
+      <PrivateCode>FYLPR01MTWH:I:8:10:q218v12gi_VJ32</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ32</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5453">
+      <PrivateCode>FYLPR01MTWH:I:3:11:q218v12gi_VJ33</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ33</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5454">
+      <PrivateCode>FYLPR01MTWH:I:5:10:q218v12gi_VJ34</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ34</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5455">
+      <PrivateCode>FYLPR01MTWH:I:8:11:q218v12gi_VJ35</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ35</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5456">
+      <PrivateCode>FYLPR01MTWH:I:3:12:q218v12gi_VJ36</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ36</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5457">
+      <PrivateCode>FYLPR01MTWH:I:5:11:q218v12gi_VJ37</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ37</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5458">
+      <PrivateCode>FYLPR01MTWH:I:8:12:q218v12gi_VJ38</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ38</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5459">
+      <PrivateCode>FYLPR01MTWH:I:3:13:q218v12gi_VJ39</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ39</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5460">
+      <PrivateCode>FYLPR01MTWH:I:9:1:q218v12gi_VJ40</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ40</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5461">
+      <PrivateCode>FYLPR01MTWH:I:5:12:q218v12gi_VJ41</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ41</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5462">
+      <PrivateCode>FYLPR01MTWH:I:8:13:q218v12gi_VJ42</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ42</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5463">
+      <PrivateCode>FYLPR01MTWH:I:3:14:q218v12gi_VJ43</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ43</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:44:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5464">
+      <PrivateCode>FYLPR01MTWH:I:9:2:q218v12gi_VJ44</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ44</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5465">
+      <PrivateCode>FYLPR01MTWH:I:5:13:q218v12gi_VJ45</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ45</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:06:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5466">
+      <PrivateCode>FYLPR01MTWH:I:8:14:q218v12gi_VJ46</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ46</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:17:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5467">
+      <PrivateCode>FYLPR01MTWH:I:3:15:q218v12gi_VJ47</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ47</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:27:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5468">
+      <PrivateCode>FYLPR01MTWH:I:9:3:q218v12gi_VJ48</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ48</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5469">
+      <PrivateCode>FYLPR01MTWH:I:5:14:q218v12gi_VJ49</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ49</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5470">
+      <PrivateCode>FYLPR01MTWH:I:8:15:q218v12gi_VJ50</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ50</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5471">
+      <PrivateCode>FYLPR01MTWH:I:9:4:q218v12gi_VJ51</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ51</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:23:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5472">
+      <PrivateCode>FYLPR01MTWH:I:5:15:q218v12gi_VJ52</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ52</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5473">
+      <PrivateCode>FYLPR01MTWH:I:8:16:q218v12gi_VJ53</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ53</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2591</JourneyPatternRef>
+      <DepartureTime>19:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5474">
+      <PrivateCode>FYLPR01MTWH:I:5:16:q218v12gi_VJ54</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Monday />
+            <Tuesday />
+            <Wednesday />
+            <Thursday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ54</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2591</JourneyPatternRef>
+      <DepartureTime>19:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5475">
+      <PrivateCode>FYLPR01F:I:3:1:neduer8oh_VJ55</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ55</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:00:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5476">
+      <PrivateCode>FYLPR01F:I:4:1:neduer8oh_VJ56</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ56</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:15:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5477">
+      <PrivateCode>FYLPR01F:I:8:1:neduer8oh_VJ57</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ57</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:30:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5478">
+      <PrivateCode>FYLPR01F:I:5:1:neduer8oh_VJ58</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ58</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:51:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5479">
+      <PrivateCode>FYLPR01F:I:3:2:neduer8oh_VJ59</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ59</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2582</JourneyPatternRef>
+      <DepartureTime>07:41:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5480">
+      <PrivateCode>FYLPR01F:I:4:2:neduer8oh_VJ60</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ60</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:01:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5481">
+      <PrivateCode>FYLPR01F:I:8:2:neduer8oh_VJ61</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ61</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:11:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5482">
+      <PrivateCode>FYLPR01F:I:3:3:neduer8oh_VJ62</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ62</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:22:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5483">
+      <PrivateCode>FYLPR01F:I:5:2:neduer8oh_VJ63</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ63</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:32:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5484">
+      <PrivateCode>FYLPR01F:I:4:3:neduer8oh_VJ64</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ64</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:43:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5485">
+      <PrivateCode>FYLPR01F:I:8:3:neduer8oh_VJ65</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ65</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2583</JourneyPatternRef>
+      <DepartureTime>08:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5486">
+      <PrivateCode>FYLPR01F:I:3:4:neduer8oh_VJ66</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ66</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5487">
+      <PrivateCode>FYLPR01F:I:5:3:neduer8oh_VJ67</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ67</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5488">
+      <PrivateCode>FYLPR01F:I:8:4:neduer8oh_VJ68</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ68</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5489">
+      <PrivateCode>FYLPR01F:I:3:5:neduer8oh_VJ69</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ69</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2584</JourneyPatternRef>
+      <DepartureTime>09:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5490">
+      <PrivateCode>FYLPR01F:I:5:4:neduer8oh_VJ70</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ70</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5491">
+      <PrivateCode>FYLPR01F:I:8:5:neduer8oh_VJ71</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ71</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5492">
+      <PrivateCode>FYLPR01F:I:3:6:neduer8oh_VJ72</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ72</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5493">
+      <PrivateCode>FYLPR01F:I:5:5:neduer8oh_VJ73</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ73</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>10:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5494">
+      <PrivateCode>FYLPR01F:I:8:6:neduer8oh_VJ74</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ74</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5495">
+      <PrivateCode>FYLPR01F:I:3:7:neduer8oh_VJ75</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ75</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5496">
+      <PrivateCode>FYLPR01F:I:5:6:neduer8oh_VJ76</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ76</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5497">
+      <PrivateCode>FYLPR01F:I:8:7:neduer8oh_VJ77</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ77</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>11:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5498">
+      <PrivateCode>FYLPR01F:I:3:8:neduer8oh_VJ78</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ78</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5499">
+      <PrivateCode>FYLPR01F:I:5:7:neduer8oh_VJ79</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ79</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5500">
+      <PrivateCode>FYLPR01F:I:8:8:neduer8oh_VJ80</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ80</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5501">
+      <PrivateCode>FYLPR01F:I:3:9:neduer8oh_VJ81</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ81</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>12:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5502">
+      <PrivateCode>FYLPR01F:I:5:8:neduer8oh_VJ82</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ82</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5503">
+      <PrivateCode>FYLPR01F:I:8:9:neduer8oh_VJ83</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ83</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5504">
+      <PrivateCode>FYLPR01F:I:3:10:neduer8oh_VJ84</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ84</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5505">
+      <PrivateCode>FYLPR01F:I:5:9:neduer8oh_VJ85</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ85</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2586</JourneyPatternRef>
+      <DepartureTime>13:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5506">
+      <PrivateCode>FYLPR01F:I:8:10:neduer8oh_VJ86</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ86</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5507">
+      <PrivateCode>FYLPR01F:I:3:11:neduer8oh_VJ87</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ87</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5508">
+      <PrivateCode>FYLPR01F:I:5:10:neduer8oh_VJ88</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ88</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5509">
+      <PrivateCode>FYLPR01F:I:8:11:neduer8oh_VJ89</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ89</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2585</JourneyPatternRef>
+      <DepartureTime>14:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5510">
+      <PrivateCode>FYLPR01F:I:3:12:neduer8oh_VJ90</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ90</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5511">
+      <PrivateCode>FYLPR01F:I:5:11:neduer8oh_VJ91</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ91</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5512">
+      <PrivateCode>FYLPR01F:I:8:12:neduer8oh_VJ92</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ92</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5513">
+      <PrivateCode>FYLPR01F:I:3:13:neduer8oh_VJ93</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ93</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2587</JourneyPatternRef>
+      <DepartureTime>15:49:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5514">
+      <PrivateCode>FYLPR01F:I:9:1:neduer8oh_VJ94</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ94</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:04:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5515">
+      <PrivateCode>FYLPR01F:I:5:12:neduer8oh_VJ95</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ95</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:19:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5516">
+      <PrivateCode>FYLPR01F:I:8:13:neduer8oh_VJ96</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ96</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:34:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5517">
+      <PrivateCode>FYLPR01F:I:3:14:neduer8oh_VJ97</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ97</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:44:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5518">
+      <PrivateCode>FYLPR01F:I:9:2:neduer8oh_VJ98</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ98</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2588</JourneyPatternRef>
+      <DepartureTime>16:55:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5519">
+      <PrivateCode>FYLPR01F:I:5:13:neduer8oh_VJ99</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ99</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:06:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5520">
+      <PrivateCode>FYLPR01F:I:8:14:neduer8oh_VJ100</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ100</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:17:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5521">
+      <PrivateCode>FYLPR01F:I:3:15:neduer8oh_VJ101</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ101</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:27:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5522">
+      <PrivateCode>FYLPR01F:I:9:3:neduer8oh_VJ102</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ102</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5523">
+      <PrivateCode>FYLPR01F:I:5:14:neduer8oh_VJ103</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ103</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2589</JourneyPatternRef>
+      <DepartureTime>17:53:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5524">
+      <PrivateCode>FYLPR01F:I:8:15:neduer8oh_VJ104</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ104</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5525">
+      <PrivateCode>FYLPR01F:I:9:4:neduer8oh_VJ105</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ105</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:23:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5526">
+      <PrivateCode>FYLPR01F:I:5:15:neduer8oh_VJ106</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ106</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2590</JourneyPatternRef>
+      <DepartureTime>18:38:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5527">
+      <PrivateCode>FYLPR01F:I:8:16:neduer8oh_VJ107</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ107</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2591</JourneyPatternRef>
+      <DepartureTime>19:08:00</DepartureTime>
+    </VehicleJourney>
+    <VehicleJourney SequenceNumber="5528">
+      <PrivateCode>FYLPR01F:I:5:16:neduer8oh_VJ108</PrivateCode>
+      <Direction>outbound</Direction>
+      <OperatingProfile>
+        <RegularDayType>
+          <DaysOfWeek>
+            <Friday />
+          </DaysOfWeek>
+        </RegularDayType>
+        <BankHolidayOperation>
+          <DaysOfNonOperation>
+            <ChristmasDay />
+            <BoxingDay />
+            <GoodFriday />
+            <NewYearsDay />
+            <LateSummerBankHolidayNotScotland />
+            <MayDay />
+            <EasterMonday />
+            <SpringBank />
+            <ChristmasDayHoliday />
+            <BoxingDayHoliday />
+            <NewYearsDayHoliday />
+            <ChristmasEve />
+            <NewYearsEve />
+          </DaysOfNonOperation>
+        </BankHolidayOperation>
+      </OperatingProfile>
+      <VehicleJourneyCode>VJ108</VehicleJourneyCode>
+      <ServiceRef>Y_FG_FLDS_PR1_1</ServiceRef>
+      <LineRef>SL33</LineRef>
+      <JourneyPatternRef>JP2591</JourneyPatternRef>
+      <DepartureTime>19:38:00</DepartureTime>
+    </VehicleJourney>
+  </VehicleJourneys>
+</TransXChange>
